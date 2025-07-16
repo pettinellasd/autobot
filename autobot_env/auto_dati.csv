@@ -1,0 +1,377 @@
+Marca,Modello,Versione,Prezzo,Lunghezza,Larghezza,Altezza,Posti,Bagagliaio,Garanzia,Motorizzazione,Cilindrata cm³,Cilindri,Potenza CV/KW,Potenza termico CV/KW,Potenza omologata CV/KW,Coppia Nm,Velocità max km/h,Consumo medio l/100 km,Consumo medio kWh/100 km,Emissioni,Peso kg,Autonomia km,Capacità batteria kWh
+BAW,BAW1,13.7 kWh Fun 2 posti,14.900,316,150,158,2/4,-,3/100.000,elettrica,nd,nd,27 CV/20 KW,nd,18 CV/13 KW,nd,90,nd,0 kWh/100 km,0 G/KM,740,170,13
+BAW,BAW1,13.7 kWh Young 4 posti,15.900,316,150,158,2/4,-,3/100.000,elettrica,nd,nd,27 CV/20 KW,nd,18 CV/13 KW,nd,90,nd,0 kWh/100 km,0 G/KM,740,170,13
+BAW,BAW1,17.28 kWh City 4 posti,17.300,316,150,158,2/4,-,3/100.000,elettrica,nd,nd,27 CV/20 KW,nd,18 CV/13 KW,nd,90,nd,0 kWh/100 km,0 G/KM,nd,220,17
+BYD,Atto 2,45 kWh Active,29.990,431,183,168,5,400/1340,6/150.000,elettrica,nd,nd,177 CV/130 KW,nd,nd,290,160,nd,n.d. kWh/100 km,0 G/KM,1.905,312,45
+BYD,Atto 2,45 kWh Boost,31.990,431,183,168,5,400/1340,6/150.000,elettrica,nd,nd,177 CV/130 KW,nd,nd,290,160,nd,n.d. kWh/100 km,0 G/KM,1.905,312,45
+BYD,Atto 3,Comfort,38.790,446,188,162,5,440/1338,6/150.000,elettrica,nd,nd,204 CV/150 KW,nd,88 CV/65 KW,310,160,nd,"15,6 kWh/100 km",0 G/KM,1.750,420,60
+BYD,Atto 3,Design,40.790,446,188,162,5,440/1338,6/150.000,elettrica,nd,nd,204 CV/150 KW,nd,88 CV/65 KW,310,160,nd,"15,6 kWh/100 km",0 G/KM,1.750,420,60
+BYD,Dolphin,60.4 kWh Comfort,33.790,429,177,157,5,345/1310,6/150.000,elettrica,nd,nd,204 CV/150 KW,nd,88 CV/65 KW,310,160,nd,"15,9 kWh/100 km",0 G/KM,1.658,427,60
+BYD,Dolphin,60.4 kWh Design,35.790,429,177,157,5,345/1310,6/150.000,elettrica,nd,nd,204 CV/150 KW,nd,88 CV/65 KW,310,160,nd,"15,9 kWh/100 km",0 G/KM,1.658,427,60
+BYD,Han,Executive,70.940,500,191,150,5,410,6/150.000,elettrica,nd,nd,517 CV/380 KW,nd,75 CV/55 KW,700,180,nd,"18,5 kWh/100 km",0 G/KM,2.250,521,85
+BYD,Seal,Design,43.600,480,188,146,5,ant. 53post. 400,6/150.000,elettrica,nd,nd,313 CV/230 KW,nd,95 CV/70 KW,360,180,nd,"16,6 kWh/100 km",0 G/KM,2.055,570,82
+BYD,Seal,Excellence AWD,49.390,480,188,146,5,ant. 53post. 400,6/150.000,elettrica,nd,nd,530 CV/390 KW,nd,197 CV/145 KW,670,180,nd,"18,2 kWh/100 km",0 G/KM,2.185,520,82
+BYD,Seal U,1.5 DM-i Boost,39.800,479,189,167,5,425-552/1440,6/150.000,plug-in benzina PHEV,1.498,4,218 CV/160 KW,98 CV/72 KW,nd,300,170,nd,nd,21 G/KM,1.940,80,nd
+BYD,Seal U,1.5 T DM-i Design,47.800,479,189,167,5,425-552/1440,6/150.000,plug-in benzina PHEV,1.497,4,324 CV/238 KW,131 CV/96 KW,nd,550,180,nd,nd,26 G/KM,2.100,70,nd
+BYD,Seal U,71.8 kWh Comfort,42.890,479,189,167,5,425-552/1440,6/150.000,elettrica,nd,nd,218 CV/160 KW,nd,88 CV/65 KW,310,175,nd,"19,9 kWh/100 km",0 G/KM,1.945-2.072,420,71
+BYD,Seal U,87 kWh Design,45.890,479,189,167,5,425-552/1440,6/150.000,elettrica,nd,nd,218 CV/160 KW,nd,88 CV/65 KW,310,175,nd,"19,9 kWh/100 km",0 G/KM,1.945-2.072,420,71
+BYD,Sealion 7,82.5 kWh Comfort,44.175,483,193,162,5,ant. 58post. 520/1789,6/150.000,elettrica,nd,nd,313 CV/230 KW,nd,95 CV/70 KW,380,215,nd,"19,9 kWh/100 km",0 G/KM,2.225,482,82
+BYD,Sealion 7,91.3 kWh Excellence AWD,57.390,483,193,162,5,ant. 58post. 520/1789,6/150.000,elettrica,nd,nd,530 CV/390 KW,nd,197 CV/145 KW,690,215,nd,"21,9 kWh/100 km",0 G/KM,2.435,502,91
+BYD,Tang,108 kWh Flagship,72.950,497,196,175,7,192/1655,6/150.000,elettrica,nd,nd,517 CV/380 KW,nd,nd,700,190,nd,24 kWh/100 km,0 G/KM,2.630,530,108
+Birba,Birba,13.9 kWh Classic,12.900,298,149,164,2,-,5/100.000,elettrica,nd,nd,30 CV/22 KW,nd,19 CV/14 KW,nd,90,nd,"14,2 kWh/100 km",0 G/KM,523,182,13
+Birba,Birba,13.9 kWh Ego,14.500,298,149,164,2,-,5/100.000,elettrica,nd,nd,30 CV/22 KW,nd,19 CV/14 KW,nd,90,nd,"14,2 kWh/100 km",0 G/KM,523,182,13
+Birba,Birba,13.9 kWh Sport,13.500,298,149,164,2,-,5/100.000,elettrica,nd,nd,30 CV/22 KW,nd,19 CV/14 KW,nd,90,nd,"14,2 kWh/100 km",0 G/KM,523,182,13
+Cirelli,Motor Company 1,1.5 Cross,23.800,461,182,174,7,550/1564,2/illimitati,ibrida benzina MHEV,1.498,4,110 CV/81 KW,nd,nd,155,nd,"7,2 l/100 Km",nd,181 G/KM,1.475,nd,nd
+Cirelli,Motor Company 1,1.5 Cross Gpl,25.800,461,182,174,7,550/1564,2/illimitati,Gpl,1.498,4,110 CV/81 KW,nd,nd,155,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Cirelli,Motor Company 1,1.5 Plus,18.800,461,182,174,7,550/1564,2/illimitati,ibrida benzina MHEV,1.498,4,110 CV/81 KW,nd,nd,155,nd,"7,2 l/100 Km",nd,181 G/KM,1.475,nd,nd
+Cirelli,Motor Company 1,1.5 Plus Gpl,20.800,461,182,174,7,550/1564,2/illimitati,Gpl,1.498,4,110 CV/81 KW,nd,nd,155,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Cirelli,Motor Company 1,1.5 Premium,19.800,461,182,174,7,550/1564,2/illimitati,ibrida benzina MHEV,1.498,4,110 CV/81 KW,nd,nd,155,nd,"7,2 l/100 Km",nd,181 G/KM,1.475,nd,nd
+Cirelli,Motor Company 1,1.5 Premium Gpl,21.800,461,182,174,7,550/1564,2/illimitati,Gpl,1.498,4,110 CV/81 KW,nd,nd,155,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Cirelli,Motor Company 2,1.5 Cross Gpl,24.800,439,185,165,5,340/650,2/illimitati,Gpl,1.498,4,106 CV/78 KW,nd,nd,142,nd,7 l/100 Km,nd,188 G/KM,1.590,nd,nd
+Cirelli,Motor Company 2,1.5 Plus Gpl,22.800,439,185,165,5,340/650,2/illimitati,Gpl,1.498,4,106 CV/78 KW,nd,nd,142,nd,7 l/100 Km,nd,188 G/KM,1.590,nd,nd
+Cirelli,Motor Company 2,1.5 Premium Gpl,23.800,439,185,165,5,340/650,2/illimitati,Gpl,1.498,4,106 CV/78 KW,nd,nd,142,nd,7 l/100 Km,nd,188 G/KM,1.590,nd,nd
+Cirelli,Motor Company 2,BEV,33.800,439,185,165,5,340/650,2/illimitati,elettrica,nd,nd,0 CV/0 KW,nd,nd,0,nd,nd,0 kWh/100 km,0 G/KM,nd,nd,nd
+Cirelli,Motor Company 2 Plus,1.5,20.800,438,185,165,5,385/n.d.,2/illimitati,benzina,1.498,4,106 CV/78 KW,nd,nd,142,nd,"7,2 l/100 Km",nd,171 G/KM,1.455,nd,nd
+Cirelli,Motor Company 2 Plus,1.5 CVT,22.800,438,185,165,5,385/n.d.,2/illimitati,benzina,1.498,4,106 CV/78 KW,nd,nd,142,nd,"7,2 l/100 Km",nd,171 G/KM,1.455,nd,nd
+Cirelli,Motor Company 2 Plus,1.5 Gpl,22.800,438,185,165,5,385/n.d.,2/illimitati,Gpl,1.498,4,106 CV/78 KW,nd,nd,142,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Cirelli,Motor Company 2 Plus,1.5 Gpl CVT,24.800,438,185,165,5,385/n.d.,2/illimitati,Gpl,1.498,4,106 CV/78 KW,nd,nd,142,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Cirelli,Motor Company 3,1.5,25.800,467,186,174,5,570/n.d.,2/illimitati,benzina,1.498,4,133 CV/98 KW,nd,nd,212,nd,"9,3 l/100 Km",nd,210 G/KM,1.570,nd,nd
+Cirelli,Motor Company 3,1.5 Gpl,27.800,467,186,174,5,570/n.d.,2/illimitati,Gpl,1.498,4,133 CV/98 KW,nd,nd,212,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Cirelli,Motor Company 3 Sport,1.5,28.800,467,185,174,5,570/n.d.,2/illimitati,benzina,1.498,4,133 CV/98 KW,nd,nd,212,nd,"9,3 l/100 Km",nd,210 G/KM,1.570,nd,nd
+Cirelli,Motor Company 3 Sport,1.5 Gpl,30.800,467,185,174,5,570/n.d.,2/illimitati,Gpl,1.498,4,133 CV/98 KW,nd,nd,212,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Cirelli,Motor Company 4,1.5 Cross CVT,33.800,472,187,171,7,400/2000,2/illimitati,benzina,1.498,4,177 CV/130 KW,nd,nd,285,nd,"8,6 l/100 Km",nd,197 G/KM,1.685,nd,nd
+Cirelli,Motor Company 4,1.5 Cross Gpl CVT,35.800,472,187,171,7,400/2000,2/illimitati,Gpl,1.498,4,177 CV/130 KW,nd,nd,285,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Cirelli,Motor Company 4,1.5 PHEV CVT,36.800,472,187,171,7,400/2000,2/illimitati,plug-in benzina PHEV,1.498,4,177 CV/130 KW,nd,nd,285,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Cirelli,Motor Company 4,1.5 Premium CVT,30.800,472,187,171,7,400/2000,2/illimitati,benzina,1.498,4,177 CV/130 KW,nd,nd,285,nd,"8,6 l/100 Km",nd,197 G/KM,1.685,nd,nd
+Cirelli,Motor Company 4,1.5 Premium Gpl CVT,32.800,472,187,171,7,400/2000,2/illimitati,Gpl,1.498,4,177 CV/130 KW,nd,nd,285,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Cirelli,Motor Company 4 Plus,1.5,31.800,472,187,171,7,400/2000,2/illimitati,benzina,1.498,4,nd,nd,nd,nd,nd,nd,nd,nd,1.510,nd,nd
+Cirelli,Motor Company 4 Plus,1.5 Gpl,33.800,472,187,171,7,400/2000,2/illimitati,Gpl,1.498,4,nd,nd,nd,nd,nd,nd,nd,nd,nd,nd,nd
+Cirelli,Motor Company 5,1.5 Plus,32.800,457,187,169,5,370/1420,2/illimitati,ibrida benzina MHEV,1.498,4,177 CV/130 KW,nd,nd,285,nd,"7,3 l/100 Km",nd,187 G/KM,1.550,nd,nd
+Cirelli,Motor Company 5,1.5 Plus Gpl,34.800,457,187,169,5,370/1420,2/illimitati,Gpl,1.498,4,177 CV/130 KW,nd,nd,285,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Cirelli,Motor Company 5,1.5 Premium,32.800,457,187,169,5,370/1420,2/illimitati,ibrida benzina MHEV,1.498,4,177 CV/130 KW,nd,nd,285,nd,"7,3 l/100 Km",nd,187 G/KM,1.550,nd,nd
+Cirelli,Motor Company 5,1.5 Premium Gpl,34.800,457,187,169,5,370/1420,2/illimitati,Gpl,1.498,4,177 CV/130 KW,nd,nd,285,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Cirelli,Motor Company 5,1.5 Sport,39.800,457,187,169,5,370/1420,2/illimitati,ibrida benzina MHEV,1.498,4,177 CV/130 KW,nd,nd,285,nd,"7,3 l/100 Km",nd,187 G/KM,1.550,nd,nd
+Cirelli,Motor Company 5,1.5 Sport Gpl,41.800,457,187,169,5,370/1420,2/illimitati,Gpl,1.498,4,177 CV/130 KW,nd,nd,285,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Cirelli,Motor Company 7,1.5 Cross,36.800,485,190,172,7,234/2032,2/illimitati,benzina,1.498,4,177 CV/130 KW,nd,nd,285,nd,"7,8 l/100 Km",nd,178 G/KM,1.790,nd,nd
+Cirelli,Motor Company 7,1.5 Cross Gpl,38.800,485,190,172,7,234/2032,2/illimitati,Gpl,1.498,4,177 CV/130 KW,nd,nd,285,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Cirelli,Motor Company 7,1.5 Plus,34.800,485,190,172,7,234/2032,2/illimitati,benzina,1.498,4,177 CV/130 KW,nd,nd,285,nd,"7,8 l/100 Km",nd,178 G/KM,1.790,nd,nd
+Cirelli,Motor Company 7,1.5 Plus Gpl,36.800,485,190,172,7,234/2032,2/illimitati,Gpl,1.498,4,177 CV/130 KW,nd,nd,285,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Cirelli,Motor Company 7,1.5 Premium,35.800,485,190,172,7,234/2032,2/illimitati,benzina,1.498,4,177 CV/130 KW,nd,nd,285,nd,"7,8 l/100 Km",nd,178 G/KM,1.790,nd,nd
+Cirelli,Motor Company 7,1.5 Premium Gpl,37.800,485,190,172,7,234/2032,2/illimitati,Gpl,1.498,4,177 CV/130 KW,nd,nd,285,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Cirelli,Motor Company 8,1.5,34.800,530,185,181,5,-,2/illimitati,gasolio,2.300,4,163 CV/120 KW,nd,nd,nd,nd,"8,7 l/100 Km",nd,230 G/KM,1.900,nd,nd
+Cirelli,Motor Company 8,1.5 auto,36.800,530,185,181,5,-,2/illimitati,gasolio,2.300,4,163 CV/120 KW,nd,nd,nd,nd,"8,7 l/100 Km",nd,230 G/KM,1.900,nd,nd
+Cirelli,Motor Company 9,1.5,38.800,471,189,172,5,410/1550,2/illimitati,benzina,1.498,4,177 CV/130 KW,nd,nd,275,nd,"7,9 l/100 Km",nd,179 G/KM,1.665,nd,nd
+Cirelli,Motor Company 9,1.5 Gpl,40.800,471,189,172,5,410/1550,2/illimitati,Gpl,1.498,4,177 CV/130 KW,nd,nd,275,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Cirelli,Motor Company Sport Coupè,1.5 Cross Gpl,34.800,469,187,165,5,379/796,2/illimitati,Gpl,1.498,4,137 CV/101 KW,nd,nd,220,nd,"9,9 l/100 Km",nd,224 G/KM,1.665,nd,nd
+Cirelli,Motor Company Sport Coupè,1.5 Premium Gpl,32.800,469,187,165,5,379/796,2/illimitati,Gpl,1.498,4,137 CV/101 KW,nd,nd,220,nd,"9,9 l/100 Km",nd,224 G/KM,1.665,nd,nd
+DFSK,E5,1.5 PHEV,36.888,476,187,171,7,375/2215,5/100.000,plug-in benzina PHEV,1.498,4,177 CV/130 KW,110 CV/81 KW,nd,300,165,"5,5 l/100 Km",nd,224 G/KM,nd,nd,nd
+DFSK,Glory 500,1.5,17.988,439,185,165,5,318/n.d.,5/100.000,benzina,1.498,4,106 CV/78 KW,nd,nd,148,165,7 l/100 Km,nd,188 G/KM,1.515,nd,nd
+DFSK,Glory 500,1.5 Gpl,19.788,439,185,165,5,318/n.d.,5/100.000,Gpl,1.498,4,106 CV/78 KW,nd,nd,148,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+DFSK,Glory 500,1.5 Gpl Luxury CVT,23.388,439,185,165,5,318/n.d.,5/100.000,Gpl,1.498,4,106 CV/78 KW,nd,nd,148,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+DFSK,Glory 500,1.5 Gpl Standard CVT,21.588,439,185,165,5,318/n.d.,5/100.000,Gpl,1.498,4,106 CV/78 KW,nd,nd,148,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+DFSK,Glory 500,1.5 Luxury CVT,21.588,439,185,165,5,318/n.d.,5/100.000,benzina,1.498,4,106 CV/78 KW,nd,nd,148,165,7 l/100 Km,nd,188 G/KM,1.515,nd,nd
+DFSK,Glory 500,1.5 Standard CVT,19.788,439,185,165,5,318/n.d.,5/100.000,benzina,1.498,4,106 CV/78 KW,nd,nd,148,165,7 l/100 Km,nd,188 G/KM,1.515,nd,nd
+DFSK,Glory 580,1.5 Turbo,26.988,472,185,172,7,375/2215,5/100.000,benzina,1.498,4,145 CV/107 KW,nd,nd,220,180,"7,4 l/100 Km",nd,222 G/KM,1.510,nd,nd
+DFSK,Glory 580,1.5 Turbo Gpl,28.788,472,185,172,7,375/2215,5/100.000,Gpl,1.498,4,145 CV/107 KW,nd,nd,220,nd,"8,6 l/100 Km",nd,199 G/KM,nd,nd,nd
+DFSK,Glory 600,1.5 Turbo,29.588,472,187,179,7,375/2215,5/100.000,benzina,1.499,4,184 CV/135 KW,nd,nd,300,180,"5,5 l/100 Km",nd,224 G/KM,1.515,nd,nd
+DFSK,Glory 600,1.5 Turbo Gpl,31.388,472,187,179,7,375/2215,5/100.000,Gpl,1.499,4,184 CV/135 KW,nd,nd,300,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+DFSK,Glory F5,1.5 Turbo,29.988,469,187,165,5,375/796,5/100.000,benzina,1.498,4,145 CV/107 KW,nd,nd,220,180,"7,4 l/100 Km",nd,224 G/KM,1.555,nd,nd
+DFSK,Glory F5,1.5 Turbo Gpl,31.788,469,187,165,5,375/796,5/100.000,Gpl,1.498,4,145 CV/107 KW,nd,nd,220,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Desner,A05,7.2 kWh,9.900,261,140,164,2,-,2/illimitati,elettrica,nd,nd,4 CV/3 KW,nd,nd,nd,45,nd,n.d. kWh/100 km,0 G/KM,nd,120,7
+Desner,Jinpeng XY,4 kW City,12.000,285,140,154,4,-,nd,elettrica,nd,nd,nd,nd,nd,79,45,nd,nd,0,584,100,nd
+Desner,Jinpeng XY,6 kW Long Range,15.500,285,140,154,4,-,nd,elettrica,nd,nd,nd,nd,nd,95,65,nd,nd,0,584,100,nd
+Desner,Pocco P300,"9,25 kWh 120",16.990,295,149,152,2,-,nd,elettrica,nd,nd,39 CV/29 KW,nd,nd,100,90,nd,n.d. kWh/100 km,0 G/KM,nd,120,9
+Desner,Wuling W300,Family,17.500,306,149,163,4,-,2/illimitati,elettrica,nd,nd,41 CV/30 KW,nd,nd,92,nd,nd,n.d. kWh/100 km,0 G/KM,nd,215,17
+Desner,Y300,13.9 kWh Family,17.500,300,150,163,4,-,2/illimitati,elettrica,nd,nd,23 CV/17 KW,nd,nd,nd,90,nd,n.d. kWh/100 km,0 G/KM,700,170,13
+EMC,212,2.0 Turbo 217 CV Adventurer,39.900,471,190,194,5,-,3/100.000,benzina,1.968,4,218 CV/160 KW,nd,nd,410,nd,"12,2 l/100 Km",nd,276 G/KM,2.225,nd,nd
+EMC,212,2.0 Turbo 217 CV Officier,43.500,471,190,194,5,-,3/100.000,benzina,1.968,4,218 CV/160 KW,nd,nd,410,nd,"12,2 l/100 Km",nd,276 G/KM,2.225,nd,nd
+EMC,Quattro,1.5,17.700,401,176,158,5,400/n.d.,5/100.000,benzina,1.498,4,103 CV/76 KW,nd,nd,140,nd,"7,2 l/100 Km",nd,167-173 G/KM,1.180-1.215,nd,nd
+EMC,Quattro,1.5 CVT,19.200,401,176,158,5,400/n.d.,5/100.000,benzina,1.498,4,103 CV/76 KW,nd,nd,140,nd,"7,2 l/100 Km",nd,167-173 G/KM,1.180-1.215,nd,nd
+EMC,Quattro,1.5 Gpl,19.600,401,176,158,5,400/n.d.,5/100.000,Gpl,1.498,4,103 CV/76 KW,nd,nd,140,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+EMC,Quattro,1.5 Gpl CVT,21.100,401,176,158,5,400/n.d.,5/100.000,Gpl,1.498,4,103 CV/76 KW,nd,nd,140,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+EMC,Sei,1.5,20.400,444,183,167,5,360/1100,5/100.000,benzina,1.499,4,113 CV/83 KW,nd,nd,140,nd,"7,3 l/100 Km",nd,162 G/KM,1.321,nd,nd
+EMC,Sei,1.5 CVT,22.800,444,183,167,5,360/1100,5/100.000,benzina,1.499,4,147 CV/108 KW,nd,nd,214,nd,"7,9 l/100 Km",nd,175 G/KM,1.378,nd,nd
+EMC,Sei,1.5 Gpl,22.400,444,183,167,5,360/1100,5/100.000,Gpl,1.499,4,113 CV/83 KW,nd,nd,140,nd,"9,3 l/100 Km",nd,143 G/KM,1.321,nd,nd
+EMC,Sei,1.5 Gpl CVT,24.800,444,183,167,5,360/1100,5/100.000,Gpl,1.499,4,147 CV/108 KW,nd,nd,214,nd,"9,9 l/100 Km",nd,159 G/KM,1.378,nd,nd
+EMC,Sette,1.5 T-GDI,24.800,454,185,173,5,359/1200,5/100.000,benzina,1.499,4,174 CV/128 KW,nd,nd,290,192,7 l/100 Km,nd,167 G/KM,1.499,nd,nd
+EMC,Wave 2,1.5,17.700,401,176,158,5,400/n.d.,4/100.000,benzina,1.498,4,nd,nd,nd,140,nd,"7,2",nd,167-173,1.180-1.215,nd,nd
+EMC,Wave 2,1.5 CVT,19.200,401,176,158,5,400/n.d.,4/100.000,benzina,1.498,4,nd,nd,nd,140,nd,"7,2",nd,167-173,1.180-1.215,nd,nd
+EMC,Wave 2,1.5 Gpl,19.600,401,176,158,5,400/n.d.,4/100.000,Gpl,1.498,4,nd,nd,nd,140,nd,nd,nd,nd,nd,nd,nd
+EMC,Wave 2,1.5 Gpl CVT,21.100,401,176,158,5,400/n.d.,4/100.000,Gpl,1.498,4,nd,nd,nd,140,nd,nd,nd,nd,nd,nd,nd
+EMC,Wave 3,1.5 Bifuel,22.000,444,183,167,5,360,3/100.000,Gpl,1.499,4,nd,nd,nd,140,nd,"9,2",nd,143,1.321,nd,nd
+EMC,Wave 3,1.5T Bifuel CVT,24.400,444,183,167,5,360,3/100.000,Gpl,1.499,4,nd,nd,nd,214,nd,"9,8",nd,159,1.378,nd,nd
+EMC,Yudo,41.7 kWh,24.200,404,174,163,5,310/n.d.,3/100.000,elettrica,nd,nd,95 CV/70 KW,nd,nd,165,130,nd,"14,8 kWh/100 km",0 G/KM,1.300,325,41
+Evo,3,1.5,16.400,414,175,157,5,420/790,2/illimitati,benzina,1.499,4,113 CV/83 KW,nd,nd,140,170,"6,7 l/100 Km",nd,152 G/KM,1.155,nd,nd
+Evo,3,1.5 Bifuel Gpl,18.400,414,175,157,5,420/790,2/illimitati,Gpl,1.499,4,107 CV/79 KW,nd,nd,138,170,"8,4 l/100 Km",nd,135 G/KM,nd,nd,nd
+Evo,4,1.6,17.900,433,177,164,5,600/1200,2/illimitati,benzina,1.590,4,114 CV/84 KW,nd,nd,155,175,"7,7 l/100 Km",nd,172 G/KM,1.200,nd,nd
+Evo,4,1.6 Bifuel Gpl,19.900,433,177,164,5,600/1200,2/illimitati,Gpl,1.590,4,106 CV/78 KW,nd,nd,155,175,"9,3 l/100 Km",nd,152 G/KM,nd,nd,nd
+Evo,5,1.5,17.900,433,182,164,5,375/1000,2/illimitati,benzina,1.499,4,126 CV/93 KW,nd,nd,225,185,"7,5 l/100 Km",nd,168 G/KM,1.250,nd,nd
+Evo,5,1.5 Bifuel GPL,19.900,433,182,164,5,375/1000,2/illimitati,Gpl,1.499,4,120 CV/88 KW,nd,nd,211,185,"9,2 l/100 Km",nd,162 G/KM,nd,nd,nd
+Evo,6,1.5,29.900,457,186,169,5,480/1480,2/illimitati,benzina,1.482,4,177 CV/130 KW,nd,nd,260,nd,"7,7 l/100 Km",nd,175 G/KM,1.496,nd,nd
+Evo,6,1.5 Gpl,31.900,457,186,169,5,480/1480,2/illimitati,Gpl,1.482,4,167 CV/123 KW,nd,nd,245,nd,"10,3 l/100 Km",nd,166 G/KM,1.496,nd,nd
+Evo,7,1.5 Turbo,31.900,480,187,176,7/6,230/1900,2/illimitati,benzina,1.499,4,174 CV/128 KW,nd,nd,288,160,"7,4 l/100 Km",nd,171 G/KM,1.530,nd,nd
+Evo,7,1.5 Turbo 7 posti,31.900,480,187,176,7/6,230/1900,2/illimitati,benzina,1.499,4,174 CV/128 KW,nd,nd,288,160,"7,4 l/100 Km",nd,171 G/KM,1.530,nd,nd
+Evo,7,1.5 Turbo Bifuel Gpl,33.900,480,187,176,7/6,230/1900,2/illimitati,Gpl,1.499,4,174 CV/128 KW,nd,nd,288,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Evo,7,1.5 Turbo Bifuel Gpl 7 posti,33.900,480,187,176,7/6,230/1900,2/illimitati,Gpl,1.499,4,174 CV/128 KW,nd,nd,288,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Evo,Cross 4,2.0 Turbo Diesel,29.900,532,183,182,5,-,2/illimitati,gasolio,1.999,4,136 CV/100 KW,nd,nd,320,150,11 l/100 Km,nd,288 G/KM,1.965,nd,nd
+Forthing,Friday,1.5,32.900,460,186,168,5,480/1480,5/150.000,benzina,1.481,4,177 CV/130 KW,nd,nd,285,180,"7,1 l/100 Km",nd,166 G/KM,1.550,nd,nd
+Forthing,Friday,1.5 Gpl,34.500,460,186,168,5,480/1480,5/150.000,Gpl,1.481,4,177 CV/130 KW,nd,nd,285,180,"7,1 l/100 Km",nd,166 G/KM,1.550,nd,nd
+Forthing,Friday,1.5 HEV,37.900,460,186,168,5,480/1480,5/150.000,ibrida benzina HEV,1.493,4,241 CV/177 KW,170 CV/125 KW,nd,285,180,n.d. l/100 Km,nd,n.d. G/KM,1.700,nd,nd
+Forthing,Friday,85.9 kWh,43.500,460,186,168,5,480/1480,5/150.000,elettrica,nd,nd,204 CV/150 KW,nd,nd,340,nd,nd,n.d. kWh/100 km,0 G/KM,1.825,510,85
+Forthing,T5,1.5 Evo,32.900,457,186,169,5,480/1480,5/150.000,benzina,1.481,4,nd,nd,nd,285,180,"7,1",nd,166,1.550,nd,nd
+Forthing,T5,1.5 Evo Gpl,34.500,457,186,169,5,480/1480,5/150.000,Gpl,1.481,4,nd,nd,nd,285,180,nd,nd,nd,1.550,nd,nd
+Forthing,T5,1.5 HEV,37.900,457,186,169,5,480/1480,5/150.000,ibrida benzina HEV,1.493,4,nd,nd,nd,nd,180,"6,1",nd,142,1.700,nd,nd
+Forthing,U-tour,1.5,33.900,485,190,172,5/7,234/2032,5/150.000,benzina,1.481,4,177 CV/130 KW,nd,nd,285,180,"7,5 l/100 Km",nd,173 G/KM,1.715,nd,nd
+Forthing,U-tour,1.5 7 posti,34.900,485,190,172,5/7,234/2032,5/150.000,benzina,1.481,4,177 CV/130 KW,nd,nd,285,180,"7,5 l/100 Km",nd,173 G/KM,1.715,nd,nd
+Forthing,U-tour,1.5 Gpl,35.500,485,190,172,5/7,234/2032,5/150.000,Gpl,1.481,4,177 CV/130 KW,nd,nd,285,180,n.d. l/100 Km,nd,n.d. G/KM,1.715,nd,nd
+Forthing,U-tour,1.5 Gpl 7 posti,36.500,485,190,172,5/7,234/2032,5/150.000,Gpl,1.481,4,177 CV/130 KW,nd,nd,285,180,n.d. l/100 Km,nd,n.d. G/KM,1.715,nd,nd
+Foton,Tunland G7,2.0 TDI 6MT,31.000,534,194,187,5,-,3/100.000,gasolio,1.968,4,162 CV/119 KW,nd,nd,388,nd,"8,5 l/100 Km",nd,235-264 G/KM,2.005-2.025,nd,nd
+Foton,Tunland G7,2.0 TDI 8AT,33.000,534,194,187,5,-,3/100.000,gasolio,1.968,4,162 CV/119 KW,nd,nd,388,nd,"8,5 l/100 Km",nd,235-264 G/KM,2.005-2.025,nd,nd
+Foton,Tunland V9,2.0 TDI Flagship,47.250,562,209,196,5,-,3/100.000,ibrida gasolio MHEV,1.968,4,159 CV/117 KW,nd,nd,400,nd,"10,5 l/100 Km",nd,276 G/KM,2.285-2.335,nd,nd
+Foton,Tunland V9,2.0 TDI Ultra,50.910,562,209,196,5,-,3/100.000,ibrida gasolio MHEV,1.968,4,159 CV/117 KW,nd,nd,400,nd,"10,5 l/100 Km",nd,276 G/KM,2.285-2.335,nd,nd
+GWM,Ora 03,300 Pro,nd,425,185,160,5,228/858,3/100.000,elettrica,nd,nd,171 CV/126 KW,nd,nd,250,160,nd,"16,7 kWh/100 km",0 G/KM,1.540,310,47
+GWM,Ora 03,400 Pro,nd,425,185,160,5,228/858,3/100.000,elettrica,nd,nd,171 CV/126 KW,nd,nd,250,160,nd,"16,8 kWh/100 km",0 G/KM,1.540-1.580,400,63
+GWM,Ora 03,GT,nd,425,185,160,5,228/858,3/100.000,elettrica,nd,nd,171 CV/126 KW,nd,nd,250,160,nd,"16,8 kWh/100 km",0 G/KM,1.540-1.580,400,63
+GWM,Ora 07,64 kWh,nd,487,185,150,5,-,3/100.000,elettrica,nd,nd,204 CV/150 KW,nd,nd,340,170,nd,"16,5 kWh/100 km",0 G/KM,1.990,nd,64
+GWM,Ora 07,64 kWh AWD,nd,487,185,150,5,-,3/100.000,elettrica,nd,nd,408 CV/300 KW,nd,nd,340,nd,nd,n.d. kWh/100 km,0 G/KM,2.200,440,83
+GWM,Steed,2.4 GPL Premium 4WD,28.018,510,180,173,5,-,3/100.000,Gpl,2.378,4,150 CV/110 KW,nd,nd,220,150,nd,nd,224 G/KM,1.847,614,nd
+GWM,Steed,2.4 GPL Premium Lungo 4WD,28.818,510,180,173,5,-,3/100.000,Gpl,2.378,4,150 CV/110 KW,nd,nd,220,150,nd,nd,224 G/KM,1.847,614,nd
+GWM,Steed,2.4 GPL Work 4WD,25.578,510,180,173,5,-,3/100.000,Gpl,2.378,4,150 CV/110 KW,nd,nd,220,150,nd,nd,224 G/KM,1.847,614,nd
+GWM,Steed,2.4 GPL Work Lungo 4WD,26.378,510,180,173,5,-,3/100.000,Gpl,2.378,4,150 CV/110 KW,nd,nd,220,150,nd,nd,224 G/KM,1.847,614,nd
+GWM,Wey 03,2.0 Plug-in Hybrid,nd,467,189,173,5,352/1289,3/100.000,plug-in benzina PHEV,1.998,4,367 CV/270 KW,204 CV/150 KW,nd,500,230,nd,nd,15 G/KM,2.100,124,nd
+GWM,Wey 03,2.0 Plug-in Hybrid AWD,nd,467,189,173,5,352/1289,3/100.000,plug-in benzina PHEV,1.998,4,442 CV/325 KW,204 CV/150 KW,nd,685,230,nd,nd,15 G/KM,2.220,136,nd
+GWM,Wey 05,2.0 Plug-in Hybrid,nd,487,196,169,5,-,3/100.000,plug-in benzina PHEV,0,0,476 CV/350 KW,nd,nd,847,235,nd,nd,12 G/KM,2.335,146,nd
+ICH-X,K2,2.0 Turbo Diesel 4x4,51.500,465,193,187,5,532/965,5/100.000,gasolio,1.968,4,162 CV/119 KW,nd,nd,380,160,"10,3 l/100 Km",nd,272 G/KM,2.105,nd,nd
+ICH-X,K3,2.0 Turbo 238 CV Gpl,45.900,479,201,188,5,-,5/100.000,Gpl,1.998,4,238 CV/175 KW,nd,nd,359,185,"13,1 l/100 Km",nd,213 G/KM,1.880,nd,nd
+ICH-X,K3,2.0 Turbo 245 CV,43.900,479,201,188,5,-,5/100.000,benzina,1.998,4,245 CV/180 KW,nd,nd,375,185,"9,8 l/100 Km",nd,223 G/KM,1.860,nd,nd
+Jaecoo,7,1.5 PHEV Exclusive,40.900,450,187,167,5,500-584/1265-1349,7/150.000,plug-in benzina PHEV,1.500,4,347 CV/255 KW,143 CV/105 KW,nd,nd,180,nd,nd,23 G/KM,1.795,91,nd
+Jaecoo,7,1.5 PHEV Premium,38.900,450,187,167,5,500-584/1265-1349,7/150.000,plug-in benzina PHEV,1.500,4,347 CV/255 KW,143 CV/105 KW,nd,nd,180,nd,nd,23 G/KM,1.795,91,nd
+Jaecoo,7,1.6 TGDI Exclusive AWD,37.900,450,187,167,5,500-584/1265-1349,7/150.000,benzina,1.598,4,147 CV/108 KW,nd,nd,275,180,"7,5 l/100 Km",nd,169-182 G/KM,1.524-1.649,nd,nd
+Jaecoo,7,1.6 TGDI Premium,33.900,450,187,167,5,500-584/1265-1349,7/150.000,benzina,1.598,4,147 CV/108 KW,nd,nd,275,180,"7,5 l/100 Km",nd,169-182 G/KM,1.524-1.649,nd,nd
+Leapmotor,C10,70 kWh,37.400,474,190,168,5,400-435/1375-1410,3/100.000,elettrica,nd,nd,218 CV/160 KW,nd,109 CV/80 KW,320,170,nd,"18,8 kWh/100 km",0 G/KM,1.980,424,69
+Leapmotor,C10,70 kWh Design,38.900,474,190,168,5,400-435/1375-1410,3/100.000,elettrica,nd,nd,218 CV/160 KW,nd,109 CV/80 KW,320,170,nd,"18,8 kWh/100 km",0 G/KM,1.980,424,69
+Leapmotor,C10,REEV,37.400,474,190,168,5,400-435/1375-1410,3/100.000,plug-in benzina PHEV,1.499,4,215 CV/158 KW,68 CV/50 KW,nd,320,170,nd,nd,10 G/KM,1.950,145,nd
+Leapmotor,C10,REEV Design,38.900,474,190,168,5,400-435/1375-1410,3/100.000,plug-in benzina PHEV,1.499,4,215 CV/158 KW,68 CV/50 KW,nd,320,170,nd,nd,10 G/KM,1.950,145,nd
+Leapmotor,T03,70 kW,18.900,362,165,157,4,210/508,3/100.000,elettrica,nd,nd,95 CV/70 KW,nd,nd,nd,130,nd,"16,3 kWh/100 km",0 G/KM,nd,265,36
+Leeh,Komi,160,23.900,300,152,156,4,-,nd,elettrica,nd,nd,46 CV/34 KW,nd,nd,110,110,nd,n.d. kWh/100 km,0 G/KM,985,160,17
+Leeh,Komi,320,28.990,300,152,156,4,-,nd,elettrica,nd,nd,46 CV/34 KW,nd,nd,110,110,nd,n.d. kWh/100 km,0 G/KM,1.060,320,35
+Lotus,Eletre,R,155.890,510,190,163,5/4,ant. 48post. 611-688/1532,3/100.000,elettrica,nd,nd,918 CV/675 KW,nd,340 CV/250 KW,985,265,nd,0 kWh/100 km,0 G/KM,2.640,450,112
+Lotus,Eletre,S,125.090,510,190,163,5/4,ant. 48post. 611-688/1532,3/100.000,elettrica,nd,nd,612 CV/450 KW,nd,190 CV/140 KW,710,258,nd,0 kWh/100 km,0 G/KM,2.490-2.520,600,112
+Lotus,Eletre,S 4 posti,131.800,510,190,163,5/4,ant. 48post. 611-688/1532,3/100.000,elettrica,nd,nd,612 CV/450 KW,nd,190 CV/140 KW,710,258,nd,0 kWh/100 km,0 G/KM,2.490-2.520,600,112
+Lotus,Eletre,base,99.490,510,190,163,5/4,ant. 48post. 611-688/1532,3/100.000,elettrica,nd,nd,612 CV/450 KW,nd,190 CV/140 KW,710,258,nd,0 kWh/100 km,0 G/KM,2.490-2.520,600,112
+Lotus,Emeya,R,157.200,514,200,146,5/4,ant. 46post. 509/n.d.,3/100.000,elettrica,nd,nd,918 CV/675 KW,nd,340 CV/250 KW,985,256,nd,"20,8 kWh/100 km",0 G/KM,2.490,485,102
+Lotus,Emeya,R Executive,164.890,514,200,146,5/4,ant. 46post. 509/n.d.,3/100.000,elettrica,nd,nd,918 CV/675 KW,nd,340 CV/250 KW,985,256,nd,"20,8 kWh/100 km",0 G/KM,2.490,485,102
+Lotus,Emeya,S,132.560,514,200,146,5/4,ant. 46post. 509/n.d.,3/100.000,elettrica,nd,nd,612 CV/450 KW,nd,190 CV/140 KW,710,250,nd,"19,1 kWh/100 km",0 G/KM,nd,610,102
+Lotus,Emeya,S Executive,140.250,514,200,146,5/4,ant. 46post. 509/n.d.,3/100.000,elettrica,nd,nd,612 CV/450 KW,nd,190 CV/140 KW,710,250,nd,"19,1 kWh/100 km",0 G/KM,nd,610,102
+Lotus,Emeya,base,111.490,514,200,146,5/4,ant. 46post. 509/n.d.,3/100.000,elettrica,nd,nd,612 CV/450 KW,nd,190 CV/140 KW,710,250,nd,"19,1 kWh/100 km",0 G/KM,nd,610,102
+Lotus,Emira,2.0 I4 Turbo SE DCT,113.690,441,190,123,2,ant. 151post. 208,3/100.000,benzina,1.998,4,405 CV/298 KW,nd,nd,480,291,"9,2 l/100 Km",nd,208-258 G/KM,nd,nd,nd
+Lotus,Emira,3.5 V6,116.790,441,190,123,2,ant. 151post. 208,3/100.000,benzina,1.998,4,405 CV/298 KW,nd,nd,480,291,"9,2 l/100 Km",nd,208-258 G/KM,nd,nd,nd
+Lotus,Emira,3.5 V6 AT,118.960,441,190,123,2,ant. 151post. 208,3/100.000,benzina,1.998,4,405 CV/298 KW,nd,nd,480,291,"9,2 l/100 Km",nd,208-258 G/KM,nd,nd,nd
+Lynk,& Co 01,1.5 PHEV Core,40.995,455,186,169,5,466/1213,4/120.000,plug-in benzina PHEV,1.499,4,280 CV/206 KW,139 CV/102 KW,nd,535,200,nd,nd,20 G/KM,1.830,75,nd
+Lynk,& Co 01,1.5 PHEV More,44.995,455,186,169,5,466/1213,4/120.000,plug-in benzina PHEV,1.499,4,280 CV/206 KW,139 CV/102 KW,nd,535,200,nd,nd,20 G/KM,1.830,75,nd
+Lynk,& Co 02,66 kWh Core,35.495,446,185,157,5,440/1400,4/120.000,elettrica,nd,nd,272 CV/200 KW,nd,nd,343,180,nd,"17,6 kWh/100 km",0 G/KM,1.820,435,66
+Lynk,& Co 02,66 kWh More,39.495,446,185,157,5,440/1400,4/120.000,elettrica,nd,nd,272 CV/200 KW,nd,nd,343,180,nd,"17,6 kWh/100 km",0 G/KM,1.820,435,66
+Lynk,& Co 08,1.5 PHEV Core,52.995,482,192,169,5,540/1254,4/120.000,plug-in benzina PHEV,1.499,4,349 CV/257 KW,139 CV/102 KW,nd,nd,185,nd,nd,23 G/KM,2.112,200,nd
+Lynk,& Co 08,1.5 PHEV More,56.995,482,192,169,5,540/1254,4/120.000,plug-in benzina PHEV,1.499,4,349 CV/257 KW,139 CV/102 KW,nd,nd,185,nd,nd,23 G/KM,2.112,200,nd
+MG,3,1.5,16.990,411,180,150,5,293/983,7/150.000,benzina,1.495,4,116 CV/85 KW,nd,nd,148,185,"6,1 l/100 Km",nd,137 G/KM,1.162,nd,nd
+MG,3,1.5 Comfort,18.490,411,180,150,5,293/983,7/150.000,benzina,1.495,4,116 CV/85 KW,nd,nd,148,185,"6,1 l/100 Km",nd,137 G/KM,1.162,nd,nd
+MG,3,1.5 Hybrid+,19.990,411,180,150,5,293/983,7/150.000,ibrida benzina HEV,1.499,4,194 CV/143 KW,102 CV/75 KW,nd,425,170,"4,4 l/100 Km",nd,100 G/KM,1.285,nd,nd
+MG,3,1.5 Hybrid+ Comfort,21.490,411,180,150,5,293/983,7/150.000,ibrida benzina HEV,1.499,4,194 CV/143 KW,102 CV/75 KW,nd,425,170,"4,4 l/100 Km",nd,100 G/KM,1.285,nd,nd
+MG,3,1.5 Hybrid+ Luxury,23.490,411,180,150,5,293/983,7/150.000,ibrida benzina HEV,1.499,4,194 CV/143 KW,102 CV/75 KW,nd,425,170,"4,4 l/100 Km",nd,100 G/KM,1.285,nd,nd
+MG,4,51 kWh Standard,30.790,423,184,150,5,350-363/1165-1177,7/150.000,elettrica,nd,nd,170 CV/125 KW,nd,73 CV/54 KW,250,160,nd,17 kWh/100 km,0 G/KM,1.635,350,51
+MG,4,64 kWh Comfort,34.790,423,184,150,5,350-363/1165-1177,7/150.000,elettrica,nd,nd,204 CV/150 KW,nd,92 CV/68 KW,250,160,nd,16 kWh/100 km,0 G/KM,1.651-1.675,450,64
+MG,4,64 kWh Luxury,36.790,423,184,150,5,350-363/1165-1177,7/150.000,elettrica,nd,nd,204 CV/150 KW,nd,92 CV/68 KW,250,160,nd,16 kWh/100 km,0 G/KM,1.651-1.675,450,64
+MG,4,64 kWh XPower AWD,41.290,423,184,150,5,350-363/1165-1177,7/150.000,elettrica,nd,nd,435 CV/320 KW,nd,207 CV/152 KW,600,200,nd,"18,7 kWh/100 km",0 G/KM,1.803,385,64
+MG,4,77 kWh Trophy Extended Range,40.290,423,184,150,5,350-363/1165-1177,7/150.000,elettrica,nd,nd,245 CV/180 KW,nd,122 CV/90 KW,350,180,nd,"16,5 kWh/100 km",0 G/KM,1.751,520,77
+MG,5,Long Range Comfort,38.990,460,181,154,5,479/1367,7/150.000,elettrica,nd,nd,156 CV/115 KW,nd,99 CV/73 KW,260,185,nd,"17,5 kWh/100 km",0 G/KM,1.562,400,nd
+MG,5,Long Range Luxury,40.490,460,181,154,5,479/1367,7/150.000,elettrica,nd,nd,156 CV/115 KW,nd,99 CV/73 KW,260,185,nd,"17,5 kWh/100 km",0 G/KM,1.562,400,nd
+MG,5,Standard Range Comfort,34.490,460,181,154,5,479/1367,7/150.000,elettrica,nd,nd,177 CV/130 KW,nd,102 CV/75 KW,260,185,nd,"17,9 kWh/100 km",0 G/KM,1.562,320,nd
+MG,5,Standard Range Luxury,35.990,460,181,154,5,479/1367,7/150.000,elettrica,nd,nd,177 CV/130 KW,nd,102 CV/75 KW,260,185,nd,"17,9 kWh/100 km",0 G/KM,1.562,320,nd
+MG,Cyberster,74 kWh,63.000,454,191,133,2,249,7/150.000,elettrica,nd,nd,340 CV/250 KW,nd,218 CV/160 KW,475,195,nd,"16,7 kWh/100 km",0 G/KM,1.885,507,74
+MG,Cyberster,74 kWh AWD,68.000,454,191,133,2,249,7/150.000,elettrica,nd,nd,510 CV/375 KW,nd,320 CV/235 KW,725,200,nd,"19,1 kWh/100 km",0 G/KM,1.985,443,74
+MG,HS,1.5 T-GDI Comfort,27.490,466,189,166,5,441-507/1291-1484,7/150.000,benzina,1.496,4,170 CV/125 KW,nd,nd,275,190,"7,4 l/100 Km",nd,168-173 G/KM,1.550-1.600,nd,nd
+MG,HS,1.5 T-GDI Comfort DCT,29.490,466,189,166,5,441-507/1291-1484,7/150.000,benzina,1.496,4,170 CV/125 KW,nd,nd,275,190,"7,4 l/100 Km",nd,168-173 G/KM,1.550-1.600,nd,nd
+MG,HS,1.5 T-GDI Luxury,29.990,466,189,166,5,441-507/1291-1484,7/150.000,benzina,1.496,4,170 CV/125 KW,nd,nd,275,190,"7,4 l/100 Km",nd,168-173 G/KM,1.550-1.600,nd,nd
+MG,HS,1.5 T-GDI Luxury DCT,31.990,466,189,166,5,441-507/1291-1484,7/150.000,benzina,1.496,4,170 CV/125 KW,nd,nd,275,190,"7,4 l/100 Km",nd,168-173 G/KM,1.550-1.600,nd,nd
+MG,HS,EHS 1.5 T-GDI Comfort,37.990,466,189,166,5,441-507/1291-1484,7/150.000,plug-in benzina PHEV,1.496,4,272 CV/200 KW,143 CV/105 KW,nd,350,200,nd,nd,14 G/KM,1.830-1.855,100,nd
+MG,HS,EHS 1.5 T-GDI Luxury,40.490,466,189,166,5,441-507/1291-1484,7/150.000,plug-in benzina PHEV,1.496,4,272 CV/200 KW,143 CV/105 KW,nd,350,200,nd,nd,14 G/KM,1.830-1.855,100,nd
+MG,Marvel R,70 kWh Comfort,42.690,467,192,161,5,ant. 150post. 357/1396,7/150.000,elettrica,nd,nd,179 CV/132 KW,nd,88 CV/65 KW,410,200,nd,"17,5 kWh/100 km",0 G/KM,1.810,402,nd
+MG,Marvel R,70 kWh Luxury,48.690,467,192,161,5,ant. 150post. 357/1396,7/150.000,elettrica,nd,nd,179 CV/132 KW,nd,88 CV/65 KW,410,200,nd,"17,5 kWh/100 km",0 G/KM,1.810,402,nd
+MG,Marvel R,70 kWh Performance,52.690,467,192,161,5,ant. 150post. 357/1396,7/150.000,elettrica,nd,nd,288 CV/212 KW,nd,143 CV/105 KW,665,200,nd,"20,9 kWh/100 km",0 G/KM,1.920,370,nd
+MG,ZS,1.5 Comfort,22.490,443,182,164,5,443/1298,7/150.000,benzina,1.495,4,116 CV/85 KW,nd,nd,148,179,"6,5 l/100 Km",nd,145 G/KM,1.255,nd,nd
+MG,ZS,1.5 Hybrid+ Comfort,25.490,443,182,164,5,443/1298,7/150.000,ibrida benzina HEV,1.498,4,197 CV/145 KW,102 CV/75 KW,nd,465,168,5 l/100 Km,nd,113-115 G/KM,1.380,nd,nd
+MG,ZS,1.5 Hybrid+ Luxury,27.490,443,182,164,5,443/1298,7/150.000,ibrida benzina HEV,1.498,4,197 CV/145 KW,102 CV/75 KW,nd,465,168,5 l/100 Km,nd,113-115 G/KM,1.380,nd,nd
+MG,ZS,1.5 Hybrid+ Standard,23.490,443,182,164,5,443/1298,7/150.000,ibrida benzina HEV,1.498,4,197 CV/145 KW,102 CV/75 KW,nd,465,168,5 l/100 Km,nd,113-115 G/KM,1.380,nd,nd
+MG,ZS,1.5 Standard,20.490,443,182,164,5,443/1298,7/150.000,benzina,1.495,4,116 CV/85 KW,nd,nd,148,179,"6,5 l/100 Km",nd,145 G/KM,1.255,nd,nd
+MG,ZS,Classic 1.0 T-GDI Luxury,21.540,432,181,165,5,448/1375,7/150.000,benzina,999,3,nd,nd,nd,160,180,"6,6",nd,149-163,1.259-1.264,nd,nd
+MG,ZS,Classic 1.0 T-GDI Luxury AT,22.540,432,181,165,5,448/1375,7/150.000,benzina,999,3,nd,nd,nd,160,180,"6,6",nd,149-163,1.259-1.264,nd,nd
+MG,ZS,Classic 1.5 VTi Comfort,17.990,432,181,165,5,448/1375,7/150.000,benzina,1.498,4,106 CV/78 KW,nd,nd,141,175,"6,6 l/100 Km",nd,149 G/KM,1.231-1.239,nd,nd
+MG,ZS,Classic 1.5 VTi Comfort,17.540,432,181,165,5,448/1375,7/150.000,benzina,1.498,4,nd,nd,nd,141,175,"6,6",nd,149,1.231-1.239,nd,nd
+MG,ZS,Classic 1.5 VTi Luxury,19.990,432,181,165,5,448/1375,7/150.000,benzina,1.498,4,106 CV/78 KW,nd,nd,141,175,"6,6 l/100 Km",nd,149 G/KM,1.231-1.239,nd,nd
+MG,ZS,Classic 1.5 VTi Luxury,19.540,432,181,165,5,448/1375,7/150.000,benzina,1.498,4,nd,nd,nd,141,175,"6,6",nd,149,1.231-1.239,nd,nd
+MG,ZS,Classic EV Comfort 51 kWh,34.490,432,181,165,5,448/1375,7/150.000,elettrica,nd,nd,177 CV/130 KW,nd,102 CV/75 KW,280,175,nd,17 kWh/100 km,0 G/KM,1.570,320,nd
+MG,ZS,Classic EV Comfort 51 kWh,34.490,432,181,165,5,448/1375,7/150.000,elettrica,nd,nd,nd,nd,nd,280,175,17,nd,0,1.570,320,nd
+MG,ZS,Classic EV Comfort 72 kWh,39.290,432,181,165,5,448/1375,7/150.000,elettrica,nd,nd,156 CV/115 KW,nd,99 CV/73 KW,280,175,nd,17 kWh/100 km,0 G/KM,1.620,440,nd
+MG,ZS,Classic EV Comfort 72 kWh,39.290,432,181,165,5,448/1375,7/150.000,elettrica,nd,nd,nd,nd,nd,280,175,17,nd,0,1.620,440,nd
+MG,ZS,Classic EV Luxury 51 kWh,35.990,432,181,165,5,448/1375,7/150.000,elettrica,nd,nd,177 CV/130 KW,nd,102 CV/75 KW,280,175,nd,17 kWh/100 km,0 G/KM,1.570,320,nd
+MG,ZS,Classic EV Luxury 51 kWh,35.990,432,181,165,5,448/1375,7/150.000,elettrica,nd,nd,nd,nd,nd,280,175,17,nd,0,1.570,320,nd
+MG,ZS,Classic EV Luxury 72 kWh,40.790,432,181,165,5,448/1375,7/150.000,elettrica,nd,nd,156 CV/115 KW,nd,99 CV/73 KW,280,175,nd,17 kWh/100 km,0 G/KM,1.620,440,nd
+MG,ZS,Classic EV Luxury 72 kWh,40.790,432,181,165,5,448/1375,7/150.000,elettrica,nd,nd,nd,nd,nd,280,175,17,nd,0,1.620,440,nd
+Omoda,5,1.6 TGDI Comfort,27.900,442,183,159,5,360/1075-1149,7/150.000,benzina,1.600,4,147 CV/108 KW,nd,nd,275,195,7 l/100 Km,nd,159 G/KM,1.455,nd,nd
+Omoda,5,1.6 TGDI Premium,29.900,442,183,159,5,360/1075-1149,7/150.000,benzina,1.600,4,147 CV/108 KW,nd,nd,275,195,7 l/100 Km,nd,159 G/KM,1.455,nd,nd
+Omoda,5,1.6 TGDI Pure,26.900,442,183,159,5,360/1075-1149,7/150.000,benzina,1.600,4,147 CV/108 KW,nd,nd,275,195,7 l/100 Km,nd,159 G/KM,1.455,nd,nd
+Omoda,5,EV Comfort,36.490,442,183,159,5,360/1075-1149,7/150.000,elettrica,nd,nd,204 CV/150 KW,nd,nd,340,172,nd,"15,5 kWh/100 km",0 G/KM,1.710,430,61
+Omoda,5,EV Premium,38.490,442,183,159,5,360/1075-1149,7/150.000,elettrica,nd,nd,204 CV/150 KW,nd,nd,340,172,nd,"15,5 kWh/100 km",0 G/KM,1.710,430,61
+Omoda,9,1.5 PHEV 537 CV Premium i-AWD,51.900,478,192,167,5,660/1783,7/150.000,plug-in benzina PHEV,1.500,4,537 CV/395 KW,143 CV/105 KW,nd,650,180,nd,nd,38 G/KM,2.195,145,nd
+Polestar,2,Long Range,53.400,461,180,148,5,ant. 41post. 407/1097,3/100.000,elettrica,nd,nd,299 CV/220 KW,nd,nd,490,205,nd,"14,8 kWh/100 km",0 G/KM,2.006,659,82
+Polestar,2,Long Range AWD,57.400,461,180,148,5,ant. 41post. 407/1097,3/100.000,elettrica,nd,nd,421 CV/310 KW,nd,nd,740,205,nd,"15,8 kWh/100 km",0 G/KM,2.110,596,82
+Polestar,2,Long Range Performance AWD,67.400,461,180,148,5,ant. 41post. 407/1097,3/100.000,elettrica,nd,nd,476 CV/350 KW,nd,nd,740,205,nd,"16,8 kWh/100 km",0 G/KM,2.107,568,82
+Polestar,3,Long Range AWD,92.900,490,197,162,5,ant. 32post. 484/1411,2/illimitati,elettrica,nd,nd,489 CV/360 KW,nd,nd,840,210,nd,"19,7 kWh/100 km",0 G/KM,2.584,631,111
+Polestar,3,Long Range Performance AWD,99.900,490,197,162,5,ant. 32post. 484/1411,2/illimitati,elettrica,nd,nd,517 CV/380 KW,nd,nd,910,210,nd,"22,1 kWh/100 km",0 G/KM,2.584,561,111
+Polestar,3,Long Range RWD,85.900,490,197,162,5,ant. 32post. 484/1411,2/illimitati,elettrica,nd,nd,299 CV/220 KW,nd,nd,490,180,nd,"18,9 kWh/100 km",0 G/KM,nd,650,111
+Polestar,4,Long Range Dual Motor,73.750,484,201,154,5,ant. 15post. 526/1536,2/illimitati,elettrica,nd,nd,544 CV/400 KW,nd,nd,686,200,nd,"18,6 kWh/100 km",0 G/KM,nd,580,100
+Polestar,4,Long Range Single Motor,66.900,484,201,154,5,ant. 15post. 526/1536,2/illimitati,elettrica,nd,nd,272 CV/200 KW,nd,nd,343,200,nd,"17,7 kWh/100 km",0 G/KM,nd,610,100
+SWM,G01,1.5 Turbo,23.990,461,186,173,5,970/1600,5/100.000,benzina,1.499,4,133 CV/98 KW,nd,nd,212,nd,"7,2 l/100 Km",nd,198-200 G/KM,1.550-1.560,nd,nd
+SWM,G01,1.5 Turbo DCT,25.990,461,186,173,5,970/1600,5/100.000,benzina,1.499,4,133 CV/98 KW,nd,nd,212,nd,"7,2 l/100 Km",nd,198-200 G/KM,1.550-1.560,nd,nd
+SWM,G01F,1.5 Turbo DCT,26.990,467,186,174,5,570/1600,5/100.000,benzina,1.499,4,139 CV/102 KW,nd,nd,212,nd,"8,9 l/100 Km",nd,200 G/KM,1.550,nd,nd
+SWM,G03F,1.5,19.900,461,182,183,7/5,165-705/1564,5/100.000,benzina,1.498,4,110 CV/81 KW,nd,nd,155,165,"7,2 l/100 Km",nd,181 G/KM,1.400,nd,nd
+SWM,G03F,1.5 7 posti,19.900,461,182,183,7/5,165-705/1564,5/100.000,benzina,1.498,4,110 CV/81 KW,nd,nd,155,165,"7,2 l/100 Km",nd,181 G/KM,1.400,nd,nd
+SWM,G03F,1.5 Super Hybrid CVT,28.990,461,182,183,7/5,165-705/1564,5/100.000,plug-in benzina PHEV,1.498,4,143 CV/105 KW,102 CV/75 KW,nd,210,156,nd,nd,56 G/KM,1.600,50,nd
+SWM,G03F,1.5 Super Hybrid CVT 7 posti,28.990,461,182,183,7/5,165-705/1564,5/100.000,plug-in benzina PHEV,1.498,4,143 CV/105 KW,102 CV/75 KW,nd,210,156,nd,nd,56 G/KM,1.600,50,nd
+SWM,G05,1.5 Turbo,23.890,475,186,178,7,562/3024,5/100.000,benzina,1.499,4,139 CV/102 KW,nd,nd,230,nd,"8,5 l/100 Km",nd,194-195 G/KM,1.560-1.595,nd,nd
+SWM,G05,1.5 Turbo DCT,25.890,475,186,178,7,562/3024,5/100.000,benzina,1.499,4,139 CV/102 KW,nd,nd,230,nd,"8,5 l/100 Km",nd,194-195 G/KM,1.560-1.595,nd,nd
+Smart,#1,Brabus AWD,43.655,427,182,164,5,ant. 15post. 313-323/976-986,2/illimitati,elettrica,nd,nd,428 CV/315 KW,nd,158 CV/116 KW,543,180,nd,"17,4 kWh/100 km",0 G/KM,1.900,400,66
+Smart,#1,Premium,47.545,427,182,164,5,ant. 15post. 313-323/976-986,2/illimitati,elettrica,nd,nd,272 CV/200 KW,nd,102 CV/75 KW,343,180,nd,"18,1 kWh/100 km",0 G/KM,1.780-1.800,310,66
+Smart,#1,Pro,39.545,427,182,164,5,ant. 15post. 313-323/976-986,2/illimitati,elettrica,nd,nd,272 CV/200 KW,nd,102 CV/75 KW,343,180,nd,"18,1 kWh/100 km",0 G/KM,1.780-1.800,310,66
+Smart,#1,Pro+,44.545,427,182,164,5,ant. 15post. 313-323/976-986,2/illimitati,elettrica,nd,nd,272 CV/200 KW,nd,102 CV/75 KW,343,180,nd,"18,1 kWh/100 km",0 G/KM,1.780-1.800,310,66
+Smart,#1,Pulse AWD,43.655,427,182,164,5,ant. 15post. 313-323/976-986,2/illimitati,elettrica,nd,nd,428 CV/315 KW,nd,158 CV/116 KW,543,180,nd,"17,4 kWh/100 km",0 G/KM,1.900,400,66
+Smart,#1,Pure,37.045,427,182,164,5,ant. 15post. 313-323/976-986,2/illimitati,elettrica,nd,nd,272 CV/200 KW,nd,102 CV/75 KW,343,180,nd,"18,1 kWh/100 km",0 G/KM,1.780,259,47
+Smart,#1,Pure+,42.045,427,182,164,5,ant. 15post. 313-323/976-986,2/illimitati,elettrica,nd,nd,272 CV/200 KW,nd,102 CV/75 KW,343,180,nd,"18,1 kWh/100 km",0 G/KM,1.780-1.800,310,66
+Smart,#3,25th Anniversary Edition,49.045,440,184,156,5,ant. 15post. 320/1160,2/illimitati,elettrica,nd,nd,272 CV/200 KW,nd,102 CV/75 KW,343,180,nd,"16,8 kWh/100 km",0 G/KM,1.780-1.810,435,62
+Smart,#3,Brabus AWD,53.635,440,184,156,5,ant. 15post. 320/1160,2/illimitati,elettrica,nd,nd,428 CV/315 KW,nd,158 CV/116 KW,543,180,nd,"17,6 kWh/100 km",0 G/KM,1.910,415,62
+Smart,#3,Premium,48.545,440,184,156,5,ant. 15post. 320/1160,2/illimitati,elettrica,nd,nd,272 CV/200 KW,nd,102 CV/75 KW,343,180,nd,"16,8 kWh/100 km",0 G/KM,1.780-1.810,435,62
+Smart,#3,Pro,40.545,440,184,156,5,ant. 15post. 320/1160,2/illimitati,elettrica,nd,nd,272 CV/200 KW,nd,102 CV/75 KW,343,180,nd,"17,2 kWh/100 km",0 G/KM,1.780,325,47
+Smart,#3,Pro+,45.545,440,184,156,5,ant. 15post. 320/1160,2/illimitati,elettrica,nd,nd,272 CV/200 KW,nd,102 CV/75 KW,343,180,nd,"16,8 kWh/100 km",0 G/KM,1.780-1.810,435,62
+Smart,#3,Pulse,48.635,440,184,156,5,ant. 15post. 320/1160,2/illimitati,elettrica,nd,nd,428 CV/315 KW,nd,158 CV/116 KW,543,180,nd,"17,6 kWh/100 km",0 G/KM,1.910,415,62
+Smart,#5,74.4 kWh Pro,47.935,470,192,171,5,ant. 72post. 630/1530,2/illimitati,elettrica,nd,nd,340 CV/250 KW,nd,nd,373,200,nd,n.d. kWh/100 km,0 G/KM,2.200,465,74
+Smart,#5,94 kWh Brabus AWD,63.295,470,192,171,5,ant. 72post. 630/1530,2/illimitati,elettrica,nd,nd,646 CV/475 KW,nd,nd,710,210,nd,n.d. kWh/100 km,0 G/KM,2.378,540,94
+Smart,#5,94 kWh Premium,57.435,470,192,171,5,ant. 72post. 630/1530,2/illimitati,elettrica,nd,nd,363 CV/267 KW,nd,nd,373,200,nd,n.d. kWh/100 km,0 G/KM,2.260,590,94
+Smart,#5,94 kWh Pro+,52.935,470,192,171,5,ant. 72post. 630/1530,2/illimitati,elettrica,nd,nd,363 CV/267 KW,nd,nd,373,200,nd,n.d. kWh/100 km,0 G/KM,2.260,590,94
+Smart,#5,94 kWh Pulse AWD,57.675,470,192,171,5,ant. 72post. 630/1530,2/illimitati,elettrica,nd,nd,587 CV/432 KW,nd,nd,643,200,nd,n.d. kWh/100 km,0 G/KM,2.345-2.370,540,94
+Smart,#5,94 kWh Summit Edition AWD,59.175,470,192,171,5,ant. 72post. 630/1530,2/illimitati,elettrica,nd,nd,587 CV/432 KW,nd,nd,643,200,nd,n.d. kWh/100 km,0 G/KM,2.345-2.370,540,94
+Sportequipe,5,1.5 Turbo CVT,33.900,432,183,167,5,340/1100,5/100.000,benzina,1.498,4,155 CV/114 KW,nd,nd,210,185,"7,8 l/100 Km",nd,175 G/KM,1.384,nd,nd
+Sportequipe,5,1.5 Turbo GPL CVT,35.900,432,183,167,5,340/1100,5/100.000,Gpl,1.498,4,150 CV/110 KW,nd,nd,195,185,"9,6 l/100 Km",nd,160 G/KM,1.404,nd,nd
+Sportequipe,6,1.5 PHEV DHT,46.500,450,184,174,5,380-800/1500-1700,5/100.000,plug-in benzina PHEV,1.498,4,317 CV/233 KW,147 CV/108 KW,nd,545,201,nd,nd,22 G/KM,1.655,99,nd
+Sportequipe,6,1.5 Turbo CVT,34.900,450,184,174,5,380-800/1500-1700,5/100.000,benzina,1.498,4,155 CV/114 KW,nd,nd,210,186,"7,8 l/100 Km",nd,175 G/KM,1.465,nd,nd
+Sportequipe,6,1.5 Turbo GPL CVT,36.900,450,184,174,5,380-800/1500-1700,5/100.000,Gpl,1.498,4,150 CV/110 KW,nd,nd,195,186,"9,64 l/100 Km",nd,160 G/KM,1.485,nd,nd
+Sportequipe,6 GT,1.5 Turbo,30.900,459,190,169,5,476/977,5/100.000,benzina,1.498,4,156 CV/115 KW,nd,nd,230,185,"7,4 l/100 Km",nd,171 G/KM,1.410,nd,nd
+Sportequipe,6 GT,1.5 Turbo Bifuel Gpl,32.900,459,190,169,5,476/977,5/100.000,Gpl,1.498,4,156 CV/115 KW,nd,nd,230,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Sportequipe,6 GT,1.6 T-GDI,32.900,459,190,169,5,476/977,5/100.000,benzina,1.598,4,186 CV/137 KW,nd,nd,290,200,"7,6 l/100 Km",nd,175 G/KM,1.487,nd,nd
+Sportequipe,6 GT,1.6 T-GDI Bifuel Gpl,34.900,459,190,169,5,476/977,5/100.000,Gpl,1.598,4,186 CV/137 KW,nd,nd,290,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Sportequipe,7,1.5 Turbo DCT,36.900,470,186,171,7,230/1500,5/100.000,benzina,1.498,4,160 CV/118 KW,nd,nd,210,190,8 l/100 Km,nd,182 G/KM,1.489,nd,nd
+Sportequipe,7,1.5 Turbo GPL DCT,38.900,470,186,171,7,230/1500,5/100.000,Gpl,1.498,4,154 CV/113 KW,nd,nd,210,190,"9,9 l/100 Km",nd,160 G/KM,1.509,nd,nd
+Sportequipe,7 GTW,1.5 Turbo,31.900,472,190,172,7,-,5/100.000,benzina,1.498,4,156 CV/115 KW,nd,nd,230,180,8 l/100 Km,nd,182 G/KM,1.489,nd,nd
+Sportequipe,7 GTW,1.5 Turbo Bifuel Gpl,33.900,472,190,172,7,-,5/100.000,Gpl,1.498,4,156 CV/115 KW,nd,nd,230,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Sportequipe,7 GTW,1.6 T-GDI,33.900,472,190,172,7,-,5/100.000,benzina,1.598,4,186 CV/137 KW,nd,nd,290,185,"8,1 l/100 Km",nd,183 G/KM,1.565,nd,nd
+Sportequipe,7 GTW,1.6 T-GDI Bifuel Gpl,35.900,472,190,172,7,-,5/100.000,Gpl,1.598,4,186 CV/137 KW,nd,nd,290,nd,n.d. l/100 Km,nd,n.d. G/KM,nd,nd,nd
+Sportequipe,8,1.5 Plug-in Hybrid,49.500,470,186,171,7,250/1500,5/100.000,plug-in benzina PHEV,1.498,4,317 CV/233 KW,147 CV/108 KW,nd,545,201,nd,nd,22 G/KM,1.740,99,nd
+Tiger,Six,1.5 Turbo 167 CV Gpl,31.900,462,189,168,5,350/n.d.,5/100.000,Gpl,1.498,4,167 CV/123 KW,nd,nd,285,185,"10,4 l/100 Km",nd,178 G/KM,1.535,nd,nd
+Tiger,Six,1.5 Turbo 177 CV,29.900,462,189,168,5,350/n.d.,5/100.000,benzina,1.498,4,177 CV/130 KW,nd,nd,300,185,"7,8 l/100 Km",nd,178 G/KM,1.495,nd,nd
+Volvo,EC40,Single Motor Core,53.300,444,187,159,5,ant. 31post. 404/1196,3/100.000,elettrica,nd,nd,238 CV/175 KW,nd,137 CV/101 KW,420,180,nd,"16,7 kWh/100 km",0 G/KM,1.982,487,67
+Volvo,EC40,Single Motor Extended Range Core,56.100,444,187,159,5,ant. 31post. 404/1196,3/100.000,elettrica,nd,nd,252 CV/185 KW,nd,174 CV/128 KW,420,180,nd,"16,2 kWh/100 km",0 G/KM,2.020,584,79
+Volvo,EC40,Single Motor Extended Range Plus,59.900,444,187,159,5,ant. 31post. 404/1196,3/100.000,elettrica,nd,nd,252 CV/185 KW,nd,174 CV/128 KW,420,180,nd,"16,2 kWh/100 km",0 G/KM,2.020,584,79
+Volvo,EC40,Single Motor Extended Range Ultra,62.500,444,187,159,5,ant. 31post. 404/1196,3/100.000,elettrica,nd,nd,252 CV/185 KW,nd,174 CV/128 KW,420,180,nd,"16,2 kWh/100 km",0 G/KM,2.020,584,79
+Volvo,EC40,Single Motor Plus,57.100,444,187,159,5,ant. 31post. 404/1196,3/100.000,elettrica,nd,nd,238 CV/175 KW,nd,137 CV/101 KW,420,180,nd,"16,7 kWh/100 km",0 G/KM,1.982,487,67
+Volvo,EC40,Twin Motor Plus AWD,63.300,444,187,159,5,ant. 31post. 404/1196,3/100.000,elettrica,nd,nd,408 CV/300 KW,nd,249 CV/183 KW,670,180,nd,"17,3 kWh/100 km",0 G/KM,2.110,552,79
+Volvo,EC40,Twin Motor Ultra AWD,65.900,444,187,159,5,ant. 31post. 404/1196,3/100.000,elettrica,nd,nd,408 CV/300 KW,nd,249 CV/183 KW,670,180,nd,"17,3 kWh/100 km",0 G/KM,2.110,552,79
+Volvo,ES90,Single Motor Core,75.000,500,194,155,5,ant. 22post. 446/1256,3/100.000,elettrica,nd,nd,333 CV/245 KW,nd,nd,480,180,nd,"16,1 kWh/100 km",0 G/KM,2.366,650,88
+Volvo,ES90,Single Motor Plus,79.100,500,194,155,5,ant. 22post. 446/1256,3/100.000,elettrica,nd,nd,333 CV/245 KW,nd,nd,480,180,nd,"16,1 kWh/100 km",0 G/KM,2.366,650,88
+Volvo,ES90,Single Motor Ultra,87.570,500,194,155,5,ant. 22post. 446/1256,3/100.000,elettrica,nd,nd,333 CV/245 KW,nd,nd,480,180,nd,"16,1 kWh/100 km",0 G/KM,2.366,650,88
+Volvo,ES90,Twin Motor Performance Ultra,98.070,500,194,155,5,ant. 22post. 446/1256,3/100.000,elettrica,nd,nd,680 CV/500 KW,nd,nd,870,180,nd,"17,1 kWh/100 km",0 G/KM,2.553,700,102
+Volvo,ES90,Twin Motor Ultra,92.670,500,194,155,5,ant. 22post. 446/1256,3/100.000,elettrica,nd,nd,449 CV/330 KW,nd,nd,670,180,nd,"17,1 kWh/100 km",0 G/KM,2.553,700,102
+Volvo,EX30,Single Motor Core,37.700,423,184,155,5,ant. 7post. 318/1000,3/100.000,elettrica,nd,nd,272 CV/200 KW,nd,102 CV/75 KW,343,180,nd,17 kWh/100 km,0 G/KM,1.765,339,49
+Volvo,EX30,Single Motor Essential,36.350,423,184,155,5,ant. 7post. 318/1000,3/100.000,elettrica,nd,nd,272 CV/200 KW,nd,102 CV/75 KW,343,180,nd,17 kWh/100 km,0 G/KM,1.765,339,49
+Volvo,EX30,Single Motor Extended Range Core,42.950,423,184,155,5,ant. 7post. 318/1000,3/100.000,elettrica,nd,nd,272 CV/200 KW,nd,102 CV/75 KW,343,180,nd,17 kWh/100 km,0 G/KM,1.775,476,65
+Volvo,EX30,Single Motor Extended Range Plus,45.750,423,184,155,5,ant. 7post. 318/1000,3/100.000,elettrica,nd,nd,272 CV/200 KW,nd,102 CV/75 KW,343,180,nd,17 kWh/100 km,0 G/KM,1.775,476,65
+Volvo,EX30,Single Motor Extended Range Ultra,49.650,423,184,155,5,ant. 7post. 318/1000,3/100.000,elettrica,nd,nd,272 CV/200 KW,nd,102 CV/75 KW,343,180,nd,17 kWh/100 km,0 G/KM,1.775,476,65
+Volvo,EX30,Single Motor Plus,40.300,423,184,155,5,ant. 7post. 318/1000,3/100.000,elettrica,nd,nd,272 CV/200 KW,nd,102 CV/75 KW,343,180,nd,17 kWh/100 km,0 G/KM,1.765,339,49
+Volvo,EX30,Twin Motor Performance Plus,48.900,423,184,155,5,ant. 7post. 318/1000,3/100.000,elettrica,nd,nd,428 CV/315 KW,nd,158 CV/116 KW,543,180,nd,"17,5 kWh/100 km",0 G/KM,1.885,450,65
+Volvo,EX30,Twin Motor Performance Ultra,52.350,423,184,155,5,ant. 7post. 318/1000,3/100.000,elettrica,nd,nd,428 CV/315 KW,nd,158 CV/116 KW,543,180,nd,"17,5 kWh/100 km",0 G/KM,1.885,450,65
+Volvo,EX30 Cross Country,Twin Motor Performance Ultra,54.400,423,184,157,5,ant. 7post. 318/1000,3/100.000,elettrica,nd,nd,428 CV/315 KW,nd,158 CV/116 KW,543,180,nd,"18,7 kWh/100 km",0 G/KM,1.885,427,65
+Volvo,EX40,Single Motor Core,51.350,444,186,165,5,ant. 31post. 410/1286,3/100.000,elettrica,nd,nd,238 CV/175 KW,nd,137 CV/101 KW,420,180,nd,"17,1 kWh/100 km",0 G/KM,1.965,479,67
+Volvo,EX40,Single Motor Extended Range Core,54.150,444,186,165,5,ant. 31post. 410/1286,3/100.000,elettrica,nd,nd,252 CV/185 KW,nd,174 CV/128 KW,420,180,nd,"16,6 kWh/100 km",0 G/KM,2.000,575,79
+Volvo,EX40,Single Motor Extended Range Plus,57.950,444,186,165,5,ant. 31post. 410/1286,3/100.000,elettrica,nd,nd,252 CV/185 KW,nd,174 CV/128 KW,420,180,nd,"16,6 kWh/100 km",0 G/KM,2.000,575,79
+Volvo,EX40,Single Motor Extended Range Plus Black Edition,59.850,444,186,165,5,ant. 31post. 410/1286,3/100.000,elettrica,nd,nd,252 CV/185 KW,nd,174 CV/128 KW,420,180,nd,"16,6 kWh/100 km",0 G/KM,2.000,575,79
+Volvo,EX40,Single Motor Extended Range Ultra,61.150,444,186,165,5,ant. 31post. 410/1286,3/100.000,elettrica,nd,nd,252 CV/185 KW,nd,174 CV/128 KW,420,180,nd,"16,6 kWh/100 km",0 G/KM,2.000,575,79
+Volvo,EX40,Single Motor Extended Range Ultra Black Edition,62.450,444,186,165,5,ant. 31post. 410/1286,3/100.000,elettrica,nd,nd,252 CV/185 KW,nd,174 CV/128 KW,420,180,nd,"16,6 kWh/100 km",0 G/KM,2.000,575,79
+Volvo,EX40,Single Motor Plus,55.150,444,186,165,5,ant. 31post. 410/1286,3/100.000,elettrica,nd,nd,238 CV/175 KW,nd,137 CV/101 KW,420,180,nd,"17,1 kWh/100 km",0 G/KM,1.965,479,67
+Volvo,EX40,Twin Motor Plus AWD,61.350,444,186,165,5,ant. 31post. 410/1286,3/100.000,elettrica,nd,nd,408 CV/300 KW,nd,249 CV/183 KW,670,180,nd,"17,6 kWh/100 km",0 G/KM,2.095,538,79
+Volvo,EX40,Twin Motor Plus Black Edition AWD,63.250,444,186,165,5,ant. 31post. 410/1286,3/100.000,elettrica,nd,nd,408 CV/300 KW,nd,249 CV/183 KW,670,180,nd,"17,6 kWh/100 km",0 G/KM,2.095,538,79
+Volvo,EX40,Twin Motor Ultra AWD,64.550,444,186,165,5,ant. 31post. 410/1286,3/100.000,elettrica,nd,nd,408 CV/300 KW,nd,249 CV/183 KW,670,180,nd,"17,6 kWh/100 km",0 G/KM,2.095,538,79
+Volvo,EX40,Twin Motor Ultra Black Edition AWD,65.850,444,186,165,5,ant. 31post. 410/1286,3/100.000,elettrica,nd,nd,408 CV/300 KW,nd,249 CV/183 KW,670,180,nd,"17,6 kWh/100 km",0 G/KM,2.095,538,79
+Volvo,EX90,Single Motor Core,85.250,504,196,174,7,ant. 46post. 310/1915,3/100.000,elettrica,nd,nd,279 CV/205 KW,nd,170 CV/125 KW,490,180,nd,"18,5 kWh/100 km",0 G/KM,2.562,591,101
+Volvo,EX90,Single Motor Plus,89.700,504,196,174,7,ant. 46post. 310/1915,3/100.000,elettrica,nd,nd,279 CV/205 KW,nd,170 CV/125 KW,490,180,nd,"18,5 kWh/100 km",0 G/KM,2.562,591,101
+Volvo,EX90,Twin Motor Core,91.150,504,196,174,7,ant. 46post. 310/1915,3/100.000,elettrica,nd,nd,408 CV/300 KW,nd,321 CV/236 KW,770,180,nd,"20,6 kWh/100 km",0 G/KM,2.704,602,107
+Volvo,EX90,Twin Motor Performance Plus,100.650,504,196,174,7,ant. 46post. 310/1915,3/100.000,elettrica,nd,nd,517 CV/380 KW,nd,343 CV/252 KW,910,180,nd,"20,7 kWh/100 km",0 G/KM,2.712,602,107
+Volvo,EX90,Twin Motor Performance Ultra,107.250,504,196,174,7,ant. 46post. 310/1915,3/100.000,elettrica,nd,nd,517 CV/380 KW,nd,343 CV/252 KW,910,180,nd,"20,7 kWh/100 km",0 G/KM,2.712,602,107
+Volvo,EX90,Twin Motor Plus,95.600,504,196,174,7,ant. 46post. 310/1915,3/100.000,elettrica,nd,nd,408 CV/300 KW,nd,321 CV/236 KW,770,180,nd,"20,6 kWh/100 km",0 G/KM,2.704,602,107
+Volvo,EX90,Twin Motor Ultra,102.200,504,196,174,7,ant. 46post. 310/1915,3/100.000,elettrica,nd,nd,408 CV/300 KW,nd,321 CV/236 KW,770,180,nd,"20,6 kWh/100 km",0 G/KM,2.704,602,107
+Volvo,S60,B4 Core,48.500,478,185,143,5,442/n.d.,2/illimitati,ibrida benzina MHEV,1.969,4,197 CV/145 KW,nd,nd,300,180,"6,1 l/100 Km",nd,138 G/KM,1.639,nd,nd
+Volvo,S60,B4 Plus,52.400,478,185,143,5,442/n.d.,2/illimitati,ibrida benzina MHEV,1.969,4,197 CV/145 KW,nd,nd,300,180,"6,1 l/100 Km",nd,138 G/KM,1.639,nd,nd
+Volvo,S60,B4 Ultimate,58.550,478,185,143,5,442/n.d.,2/illimitati,ibrida benzina MHEV,1.969,4,197 CV/145 KW,nd,nd,300,180,"6,1 l/100 Km",nd,138 G/KM,1.639,nd,nd
+Volvo,S60,B5 Ultimate AWD,63.250,478,185,143,5,442/n.d.,2/illimitati,ibrida benzina MHEV,1.969,4,250 CV/184 KW,nd,nd,350,180,"7,2 l/100 Km",nd,163 G/KM,1.757,nd,nd
+Volvo,S60,T8 Plus AWD,65.400,478,185,143,5,442/n.d.,2/illimitati,plug-in benzina PHEV,1.969,4,310 CV/228 KW,nd,nd,400,180,nd,nd,16 G/KM,1.964,91,nd
+Volvo,S60,T8 Ultimate AWD,70.800,478,185,143,5,442/n.d.,2/illimitati,plug-in benzina PHEV,1.969,4,310 CV/228 KW,nd,nd,400,180,nd,nd,16 G/KM,1.964,91,nd
+Volvo,V60,B4 Core,50.550,478,185,143,5,519/1431,2/illimitati,ibrida benzina MHEV,1.969,4,197 CV/145 KW,nd,nd,300,180,"6,2 l/100 Km",nd,140 G/KM,1.659,nd,nd
+Volvo,V60,B4 Essential,49.050,478,185,143,5,519/1431,2/illimitati,ibrida benzina MHEV,1.969,4,197 CV/145 KW,nd,nd,300,180,"6,2 l/100 Km",nd,140 G/KM,1.659,nd,nd
+Volvo,V60,B4 Plus,55.450,478,185,143,5,519/1431,2/illimitati,ibrida benzina MHEV,1.969,4,197 CV/145 KW,nd,nd,300,180,"6,2 l/100 Km",nd,140 G/KM,1.659,nd,nd
+Volvo,V60,B4 Ultra,61.400,478,185,143,5,519/1431,2/illimitati,ibrida benzina MHEV,1.969,4,197 CV/145 KW,nd,nd,300,180,"6,2 l/100 Km",nd,140 G/KM,1.659,nd,nd
+Volvo,V60,T6 Plus AWD,67.050,478,185,143,5,519/1431,2/illimitati,plug-in benzina PHEV,1.969,4,349 CV/257 KW,253 CV/186 KW,nd,659,180,nd,nd,17 G/KM,1.989,91,nd
+Volvo,V60,T6 Ultra AWD,72.250,478,185,143,5,519/1431,2/illimitati,plug-in benzina PHEV,1.969,4,349 CV/257 KW,253 CV/186 KW,nd,659,180,nd,nd,17 G/KM,1.989,91,nd
+Volvo,V60,T8 Plus AWD,71.850,478,185,143,5,519/1431,2/illimitati,plug-in benzina PHEV,1.969,4,455 CV/335 KW,310 CV/228 KW,nd,709,180,nd,nd,17 G/KM,1.989,91,nd
+Volvo,V60,T8 Ultra AWD,76.250,478,185,143,5,519/1431,2/illimitati,plug-in benzina PHEV,1.969,4,455 CV/335 KW,310 CV/228 KW,nd,709,180,nd,nd,17 G/KM,1.989,91,nd
+Volvo,V60 Cross Country,B4 Core AWD,56.400,479,185,150,5,519/1431,2/illimitati,ibrida gasolio MHEV,1.969,4,197 CV/145 KW,nd,nd,420,180,"5,9 l/100 Km",nd,155 G/KM,1.849,nd,nd
+Volvo,V60 Cross Country,B4 Plus AWD,59.150,479,185,150,5,519/1431,2/illimitati,ibrida gasolio MHEV,1.969,4,197 CV/145 KW,nd,nd,420,180,"5,9 l/100 Km",nd,155 G/KM,1.849,nd,nd
+Volvo,V60 Cross Country,B4 Ultimate AWD,65.400,479,185,150,5,519/1431,2/illimitati,ibrida gasolio MHEV,1.969,4,197 CV/145 KW,nd,nd,420,180,"5,9 l/100 Km",nd,155 G/KM,1.849,nd,nd
+Volvo,V60 Cross Country,B5 Core AWD,58.300,479,185,150,5,519/1431,2/illimitati,ibrida benzina MHEV,1.969,4,250 CV/184 KW,nd,nd,350,180,"7,4 l/100 Km",nd,167 G/KM,1.811,nd,nd
+Volvo,V60 Cross Country,B5 Plus AWD,61.050,479,185,150,5,519/1431,2/illimitati,ibrida benzina MHEV,1.969,4,250 CV/184 KW,nd,nd,350,180,"7,4 l/100 Km",nd,167 G/KM,1.811,nd,nd
+Volvo,V60 Cross Country,B5 Ultimate AWD,67.300,479,185,150,5,519/1431,2/illimitati,ibrida benzina MHEV,1.969,4,250 CV/184 KW,nd,nd,350,180,"7,4 l/100 Km",nd,167 G/KM,1.811,nd,nd
+Volvo,V90,T6 Plus AWD,79.050,495,188,146,5,551/1517,2/illimitati,plug-in benzina PHEV,1.969,4,349 CV/257 KW,253 CV/186 KW,nd,659,180,nd,nd,18 G/KM,2.000,87,nd
+Volvo,V90,T6 Ultra AWD,82.950,495,188,146,5,551/1517,2/illimitati,plug-in benzina PHEV,1.969,4,349 CV/257 KW,253 CV/186 KW,nd,659,180,nd,nd,18 G/KM,2.000,87,nd
+Volvo,V90,T8 Plus AWD,83.050,495,188,146,5,551/1517,2/illimitati,plug-in benzina PHEV,1.969,4,455 CV/335 KW,310 CV/228 KW,nd,709,180,nd,nd,18 G/KM,2.000,87,nd
+Volvo,V90,T8 Ultra AWD,86.950,495,188,146,5,551/1517,2/illimitati,plug-in benzina PHEV,1.969,4,455 CV/335 KW,310 CV/228 KW,nd,709,180,nd,nd,18 G/KM,2.000,87,nd
+Volvo,XC40,B3 Core,43.700,444,186,165,5,443/1319,2/illimitati,ibrida benzina MHEV,1.969,4,163 CV/120 KW,nd,nd,265,180,"6,5 l/100 Km",nd,148 G/KM,1.613,nd,nd
+Volvo,XC40,B3 Essential,41.250,444,186,165,5,443/1319,2/illimitati,ibrida benzina MHEV,1.969,4,163 CV/120 KW,nd,nd,265,180,"6,5 l/100 Km",nd,148 G/KM,1.613,nd,nd
+Volvo,XC40,B3 Plus,46.400,444,186,165,5,443/1319,2/illimitati,ibrida benzina MHEV,1.969,4,163 CV/120 KW,nd,nd,265,180,"6,5 l/100 Km",nd,148 G/KM,1.613,nd,nd
+Volvo,XC40,B3 Plus Black Edition,48.200,444,186,165,5,443/1319,2/illimitati,ibrida benzina MHEV,1.969,4,163 CV/120 KW,nd,nd,265,180,"6,5 l/100 Km",nd,148 G/KM,1.613,nd,nd
+Volvo,XC40,B3 Ultra,49.200,444,186,165,5,443/1319,2/illimitati,ibrida benzina MHEV,1.969,4,163 CV/120 KW,nd,nd,265,180,"6,5 l/100 Km",nd,148 G/KM,1.613,nd,nd
+Volvo,XC40,B3 Ultra Black Edition,50.500,444,186,165,5,443/1319,2/illimitati,ibrida benzina MHEV,1.969,4,163 CV/120 KW,nd,nd,265,180,"6,5 l/100 Km",nd,148 G/KM,1.613,nd,nd
+Volvo,XC40,B4 Core,47.200,444,186,165,5,443/1319,2/illimitati,ibrida benzina MHEV,1.969,4,197 CV/145 KW,nd,nd,300,180,"6,5 l/100 Km",nd,149 G/KM,1.613,nd,nd
+Volvo,XC40,B4 Plus,49.900,444,186,165,5,443/1319,2/illimitati,ibrida benzina MHEV,1.969,4,197 CV/145 KW,nd,nd,300,180,"6,5 l/100 Km",nd,149 G/KM,1.613,nd,nd
+Volvo,XC40,B4 Plus Black Edition,51.700,444,186,165,5,443/1319,2/illimitati,ibrida benzina MHEV,1.969,4,197 CV/145 KW,nd,nd,300,180,"6,5 l/100 Km",nd,149 G/KM,1.613,nd,nd
+Volvo,XC40,B4 Ultra,52.700,444,186,165,5,443/1319,2/illimitati,ibrida benzina MHEV,1.969,4,197 CV/145 KW,nd,nd,300,180,"6,5 l/100 Km",nd,149 G/KM,1.613,nd,nd
+Volvo,XC40,B4 Ultra Black Edition,54.000,444,186,165,5,443/1319,2/illimitati,ibrida benzina MHEV,1.969,4,197 CV/145 KW,nd,nd,300,180,"6,5 l/100 Km",nd,149 G/KM,1.613,nd,nd
+Volvo,XC60,B5 Core,58.500,471,190,166,5,468-483/1528-1543,2/illimitati,ibrida benzina MHEV,1.969,4,250 CV/184 KW,nd,nd,360,180,"7,5 l/100 Km",nd,169 G/KM,1.825,nd,nd
+Volvo,XC60,B5 Plus,64.400,471,190,166,5,468-483/1528-1543,2/illimitati,ibrida benzina MHEV,1.969,4,250 CV/184 KW,nd,nd,360,180,"7,5 l/100 Km",nd,169 G/KM,1.825,nd,nd
+Volvo,XC60,B5 Plus Black Edition,67.100,471,190,166,5,468-483/1528-1543,2/illimitati,ibrida benzina MHEV,1.969,4,250 CV/184 KW,nd,nd,360,180,"7,5 l/100 Km",nd,169 G/KM,1.825,nd,nd
+Volvo,XC60,B5 Ultra,70.000,471,190,166,5,468-483/1528-1543,2/illimitati,ibrida benzina MHEV,1.969,4,250 CV/184 KW,nd,nd,360,180,"7,5 l/100 Km",nd,169 G/KM,1.825,nd,nd
+Volvo,XC60,B5 Ultra Black Edition,72.000,471,190,166,5,468-483/1528-1543,2/illimitati,ibrida benzina MHEV,1.969,4,250 CV/184 KW,nd,nd,360,180,"7,5 l/100 Km",nd,169 G/KM,1.825,nd,nd
+Volvo,XC60,T6 Core,64.900,471,190,166,5,468-483/1528-1543,2/illimitati,plug-in benzina PHEV,1.969,4,349 CV/257 KW,253 CV/186 KW,nd,659,180,nd,nd,22 G/KM,2.011,80,nd
+Volvo,XC60,T6 Essential,63.600,471,190,166,5,468-483/1528-1543,2/illimitati,plug-in benzina PHEV,1.969,4,349 CV/257 KW,253 CV/186 KW,nd,659,180,nd,nd,22 G/KM,2.011,80,nd
+Volvo,XC60,T6 Plus,70.500,471,190,166,5,468-483/1528-1543,2/illimitati,plug-in benzina PHEV,1.969,4,349 CV/257 KW,253 CV/186 KW,nd,659,180,nd,nd,22 G/KM,2.011,80,nd
+Volvo,XC60,T6 Plus Black Edition,73.100,471,190,166,5,468-483/1528-1543,2/illimitati,plug-in benzina PHEV,1.969,4,349 CV/257 KW,253 CV/186 KW,nd,659,180,nd,nd,22 G/KM,2.011,80,nd
+Volvo,XC60,T6 Ultra,75.300,471,190,166,5,468-483/1528-1543,2/illimitati,plug-in benzina PHEV,1.969,4,349 CV/257 KW,253 CV/186 KW,nd,659,180,nd,nd,22 G/KM,2.011,80,nd
+Volvo,XC60,T6 Ultra Black Edition,77.300,471,190,166,5,468-483/1528-1543,2/illimitati,plug-in benzina PHEV,1.969,4,349 CV/257 KW,253 CV/186 KW,nd,659,180,nd,nd,22 G/KM,2.011,80,nd
+Volvo,XC60,T8 Plus,74.000,471,190,166,5,468-483/1528-1543,2/illimitati,plug-in benzina PHEV,1.969,4,455 CV/335 KW,310 CV/228 KW,nd,709,180,nd,nd,22 G/KM,2.011,80,nd
+Volvo,XC60,T8 Plus Black Edition,76.600,471,190,166,5,468-483/1528-1543,2/illimitati,plug-in benzina PHEV,1.969,4,455 CV/335 KW,310 CV/228 KW,nd,709,180,nd,nd,22 G/KM,2.011,80,nd
+Volvo,XC60,T8 Polestar Engineered,88.450,471,190,166,5,468-483/1528-1543,2/illimitati,plug-in benzina PHEV,1.969,4,455 CV/335 KW,310 CV/228 KW,nd,709,180,nd,nd,22 G/KM,2.011,80,nd
+Volvo,XC60,T8 Ultra,78.800,471,190,166,5,468-483/1528-1543,2/illimitati,plug-in benzina PHEV,1.969,4,455 CV/335 KW,310 CV/228 KW,nd,709,180,nd,nd,22 G/KM,2.011,80,nd
+Volvo,XC60,T8 Ultra Black Edition,80.700,471,190,166,5,468-483/1528-1543,2/illimitati,plug-in benzina PHEV,1.969,4,455 CV/335 KW,310 CV/228 KW,nd,709,180,nd,nd,22 G/KM,2.011,80,nd
+Volvo,XC90,B5 Core AWD,81.200,495,192,177,7,262-302/1816-1856,2/illimitati,ibrida benzina MHEV,1.969,4,250 CV/184 KW,nd,nd,360,180,"8,5 l/100 Km",nd,191 G/KM,2.005,nd,nd
+Volvo,XC90,B5 Plus AWD,84.250,495,192,177,7,262-302/1816-1856,2/illimitati,ibrida benzina MHEV,1.969,4,250 CV/184 KW,nd,nd,360,180,"8,5 l/100 Km",nd,191 G/KM,2.005,nd,nd
+Volvo,XC90,B5 Ultra AWD,90.000,495,192,177,7,262-302/1816-1856,2/illimitati,ibrida benzina MHEV,1.969,4,250 CV/184 KW,nd,nd,360,180,"8,5 l/100 Km",nd,191 G/KM,2.005,nd,nd
+Volvo,XC90,T8 Core AWD,93.400,495,192,177,7,262-302/1816-1856,2/illimitati,plug-in benzina PHEV,1.969,4,455 CV/335 KW,310 CV/228 KW,nd,709,180,nd,nd,30 G/KM,2.222,71,nd
+Volvo,XC90,T8 Plus AWD,96.450,495,192,177,7,262-302/1816-1856,2/illimitati,plug-in benzina PHEV,1.969,4,455 CV/335 KW,310 CV/228 KW,nd,709,180,nd,nd,30 G/KM,2.222,71,nd
+Volvo,XC90,T8 Ultra AWD,101.000,495,192,177,7,262-302/1816-1856,2/illimitati,plug-in benzina PHEV,1.969,4,455 CV/335 KW,310 CV/228 KW,nd,709,180,nd,nd,30 G/KM,2.222,71,nd
+XEV,YoYo,7.5 kW,16.990,253,150,156,2,180,3/100.000,elettrica,nd,nd,10 CV/8 KW,nd,nd,nd,90,nd,n.d. kWh/100 km,0 G/KM,nd,150,10
+XEV,YoYo,7.5 kW Pro,17.990,253,150,156,2,180,3/100.000,elettrica,nd,nd,10 CV/8 KW,nd,nd,nd,90,nd,n.d. kWh/100 km,0 G/KM,nd,150,10
