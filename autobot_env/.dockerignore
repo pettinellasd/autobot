@@ -1,0 +1,24 @@
+# Evita di copiare roba inutile nell'immagine
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+*.log
+*.tmp
+*.DS_Store
+.vscode/
+.idea/
+
+# Non inviare la tua venv locale
+bin/
+lib/
+include/
+pyvenv.cfg
+
+# Git e env locali
+.git/
+.gitignore
+.env
+
+# (IMPORTANTE) Non mettere '*.csv' qui!

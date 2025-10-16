@@ -5,61 +5,107 @@ from langgraph.graph import END, StateGraph
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage
 from dotenv import load_dotenv
+from pathlib import Path
 
+# Percorsi
+BASE_DIR = Path(__file__).resolve().parent
+AUTO_CSV_PATH = BASE_DIR / "auto_dati.csv"
+
+# Env
 load_dotenv()
 
-# LLM
+# LLM Together AI (serverless)
 llm = ChatOpenAI(
-    model="meta-llama/Llama-3-8b-chat-hf",
-    temperature=0.6,
+    model="meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+    temperature=0.2,
     base_url="https://api.together.xyz/v1",
-    api_key=os.getenv("TOGETHER_API_KEY")
+    api_key=os.getenv("TOGETHER_API_KEY"),
 )
 
-# Carica il CSV delle auto cinesi
-AUTO_CSV_PATH = "autobot_env/auto_dati.csv"
+# Carica CSV
 df_auto = pd.read_csv(AUTO_CSV_PATH)
 
-# Utility: trova marca e modello nella domanda
-def estrai_marca_modello(question):
-    question = question.lower()
-    # Ordina i modelli per lunghezza decrescente per evitare match parziali
-    modelli_ordinati = sorted(df_auto['Modello'].unique(), key=lambda x: -len(x))
-    for modello in modelli_ordinati:
-        if modello.lower() in question:
-            # Prendi la prima marca associata
-            marca = df_auto[df_auto['Modello'] == modello]['Marca'].iloc[0]
-            return marca, modello
-    # Fallback: cerca la marca
-    for marca in df_auto['Marca'].unique():
-        if marca.lower() in question:
+# Normalizzazione colonne minime richieste
+for col in ["Marca", "Modello"]:
+    if col not in df_auto.columns:
+        raise ValueError(f"Manca la colonna obbligatoria '{col}' in auto_dati.csv")
+
+# Pre-calcolo: lista modelli ordinati per lunghezza (decrescente) per evitare match parziali
+MODELLI_ORDINATI = sorted(
+    (str(m) for m in df_auto["Modello"].dropna().unique()),
+    key=lambda s: len(s),
+    reverse=True,
+)
+
+# Pre-calcolo: marche
+MARCHE = sorted(str(m) for m in df_auto["Marca"].dropna().unique())
+
+# --- Utility ---------------------------------------------------------------
+
+def estrai_marca_modello(question: str):
+    """Ritorna (marca, modello) se trovati, altrimenti (marca, None) o (None, None)."""
+    q = question.lower()
+
+    # 1) prova match modello (per primo, ordinati per lunghezza)
+    for modello in MODELLI_ORDINATI:
+        if _token_in(q, str(modello).lower()):
+            # prendi la prima marca associata al modello
+            sub = df_auto[df_auto["Modello"] == modello]
+            if not sub.empty:
+                marca = str(sub["Marca"].iloc[0])
+                return marca, modello
+
+    # 2) fallback: match marca
+    for marca in MARCHE:
+        if _token_in(q, marca.lower()):
             return marca, None
+
     return None, None
 
-def estrai_due_modelli(question):
-    question = question.lower()
-    modelli_ordinati = sorted(df_auto['Modello'].unique(), key=lambda x: -len(x))
+
+def estrai_due_modelli(question: str):
+    """Ritorna ((marca1, modello1), (marca2, modello2)) se trova almeno 2 modelli nel testo."""
+    q = question.lower()
     trovati = []
-    for modello in modelli_ordinati:
-        if modello.lower() in question:
+    for modello in MODELLI_ORDINATI:
+        if _token_in(q, str(modello).lower()):
             trovati.append(modello)
+        if len(trovati) >= 2:
+            break
+
     if len(trovati) >= 2:
-        # Prendi le marche associate
-        marca1 = df_auto[df_auto['Modello'] == trovati[0]]['Marca'].iloc[0]
-        marca2 = df_auto[df_auto['Modello'] == trovati[1]]['Marca'].iloc[0]
-        return (marca1, trovati[0]), (marca2, trovati[1])
+        m1 = trovati[0]
+        m2 = trovati[1]
+        marca1 = str(df_auto[df_auto["Modello"] == m1]["Marca"].iloc[0])
+        marca2 = str(df_auto[df_auto["Modello"] == m2]["Marca"].iloc[0])
+        return (marca1, m1), (marca2, m2)
+
     return None, None
 
-# Nodo principale: risponde a domande su tutte le colonne del CSV
-def car_info_node(state):
+
+def estrai_modelli(question: str, n=10):
+    """Ritorna una lista di (marca, modello) trovati nel testo (fino a n)."""
+    q = question.lower()
+    trovati = []
+    for modello in MODELLI_ORDINATI:
+        if _token_in(q, str(modello).lower()) and modello not in trovati:
+            marca = str(df_auto[df_auto["Modello"] == modello]["Marca"].iloc[0])
+            trovati.append((marca, modello))
+        if len(trovati) >= n:
+            break
+    return trovati
+
+# --- Nodi ------------------------------------------------------------------
+
+def car_info_node(state: dict):
     question = state["input"].lower()
     marca, modello = estrai_marca_modello(question)
     if not marca or not modello:
         return {**state, "output": "Non ho trovato la marca o il modello richiesto nel database."}
 
-    df_modello = df_auto[(df_auto['Marca'] == marca) & (df_auto['Modello'] == modello)]
+    df_modello = df_auto[(df_auto["Marca"] == marca) & (df_auto["Modello"] == modello)]
 
-    # Mappa colonne e varianti di domanda
+    # Mappa colonne/keyword (niente duplicati di chiavi)
     colonne = {
         "Versione": ["versioni", "quante versioni", "versione"],
         "Motorizzazione": ["motorizzazione", "motorizzazioni"],
@@ -83,100 +129,138 @@ def car_info_node(state):
         "Consumo medio kWh/100 km": ["consumo elettrico", "consumo kwh"],
         "Emissioni": ["emissioni"],
         "Peso kg": ["peso"],
-        "Garanzia": ["garanzia"],
     }
 
     risposte = []
     for col_csv, keywords in colonne.items():
+        if col_csv not in df_auto.columns:
+            continue
         for kw in keywords:
             if kw in question:
-                valori = df_modello[col_csv].unique()
-                valori = [str(v) for v in valori if pd.notna(v)]
-                if len(valori) > 0:
-                    risposte.append(f"{col_csv}: {', '.join(valori)}")
-                else:
-                    risposte.append(f"{col_csv}: dato non disponibile")
+                valori = df_modello[col_csv].dropna().astype(str).unique().tolist()
+                risposte.append(f"{col_csv}: {', '.join(valori) if valori else 'dato non disponibile'}")
                 break
 
-    # Prepara il contesto da passare al modello
+    # Contesto per il modello
     if not risposte:
         rows = []
         for _, row in df_modello.iterrows():
-            info = ", ".join([f"{c}: {row[c]}" for c in df_auto.columns if pd.notna(row[c])])
+            info = ", ".join([f"{c}: {row[c]}" for c in df_auto.columns if pd.notna(row.get(c, None))])
             rows.append(info)
         context = f"{marca} {modello}:\n" + "\n".join(rows)
     else:
         context = f"{marca} {modello}:\n" + "\n".join(risposte)
 
-    # Prompt creativo per il modello
     prompt = (
-        "Sei Autobot, un assistente esperto di auto cinesi per il mercato italiano. "
-        "Rispondi a domande semplici e poco dettagliate, aiutando l'utente a capire le differenze tra versioni, motorizzazioni, prezzi, autonomia, ecc. "
-        "Usa solo i dati forniti qui sotto, non inventare. "
-        "Evita toni pubblicitari, sii concreto, neutro e utile per chi sta valutando l'acquisto di un'auto cinese in Italia. "
-        "Se la domanda è generica, descrivi brevemente il modello e le sue versioni principali. "
-        "Se la domanda è di confronto, evidenzia le differenze pratiche. "
-        "Se mancano dati, dillo chiaramente. "
-        f"\n\nDati auto:\n{context}\n"
+        "Sei CARBOT, assistente tecnico per auto cinesi in Italia.\n"
+        "Regole di stile (OBBLIGATORIE):\n"
+        "- Rispondi conciso e preciso (massimo 4 frasi).\n"
+        "- NON fare proposte non richieste (niente: “posso anche…”, “vuoi che…”).\n"
+        "- Niente tono pubblicitario. Solo dati presenti.\n"
+        "- Se un dato manca, scrivi “nd”.\n"
+        "- Usa elenchi brevi o frasi compatte; evita tabelle Markdown con barre verticali.\n"
+        f"\nDati auto:\n{context}\n"
         f"\nDomanda utente: {state['input']}\n"
-        "Rispondi in massimo 4 frasi."
+        "Risposta:"
     )
     response = llm.invoke([HumanMessage(content=prompt)])
     return {**state, "output": response.content}
 
-# Nodo per domande generiche o saluti
-def generic_info(state):
-    question = state["input"]
-    prompt = (
-        "Sei Autobot, un assistente specializzato nel mercato delle auto cinesi in Italia. "
-        "Puoi chiedermi informazioni su versioni, motorizzazioni, prezzi, autonomia, bagagliaio, batteria, dimensioni, potenza, emissioni, ecc. di ogni modello presente nel database. "
-        f"Domanda utente: {question}"
-    )
-    response = llm.invoke([HumanMessage(content=prompt)])
-    return {**state, "output": response.content}
 
-def confronto_node(state):
+def generic_info(state: dict):
+    q = state["input"]
+    # se non abbiamo match, non inventiamo: spieghiamo cosa posso fare, in 2-3 frasi max
+    marche = ", ".join(sorted(df_auto["Marca"].dropna().astype(str).unique())[:10])
+    msg = (
+        "Posso rispondere usando solo i dati presenti nel database (nessuna fonte esterna). "
+        "Chiedimi di un modello specifico (es. 'BYD Seal prezzi') oppure elenchi come 'tutte le 7 posti' o 'segmento E'. "
+        f"Marche presenti: {marche}."
+    )
+    return {**state, "output": msg}
+
+
+def confronto_node(state: dict):
     question = state["input"].lower()
-    m1, m2 = estrai_due_modelli(question)
-    if not m1 or not m2:
-        return {**state, "output": "Non ho trovato due modelli da confrontare nella domanda."}
-    df_m1 = df_auto[(df_auto['Marca'] == m1[0]) & (df_auto['Modello'] == m1[1])]
-    df_m2 = df_auto[(df_auto['Marca'] == m2[0]) & (df_auto['Modello'] == m2[1])]
+    modelli = estrai_modelli(question, n=2)  # Limita il confronto a 2 modelli
+    if len(modelli) < 2:
+        return {**state, "output": "Non ho trovato almeno due modelli da confrontare nella domanda."}
 
-    # Scegli le colonne principali da confrontare
-    colonne_confronto = [
-        "Versione", "Prezzo", "Motorizzazione", "Bagagliaio", "Autonomia km", "Capacità batteria kWh",
-        "Potenza CV/KW", "Coppia Nm", "Velocità max km/h", "Consumo medio kWh/100 km", "Emissioni"
-    ]
+    def estrai_valore(df, col):
+        v = df[col].dropna().astype(str).unique()
+        return v[0] if len(v) else "nd"
 
-    # Prepara le righe per ogni versione
-    def prepara_righe(df):
-        righe = []
-        for _, row in df.iterrows():
-            riga = [str(row.get(col, "")) for col in colonne_confronto]
-            righe.append(riga)
-        return righe
-
-    righe_m1 = prepara_righe(df_m1)
-    righe_m2 = prepara_righe(df_m2)
-
-    # Costruisci la tabella markdown
-    header = "| Modello | " + " | ".join(colonne_confronto) + " |\n"
-    separator = "|---" * (len(colonne_confronto)+1) + "|\n"
-    tabella = header + separator
-
-    for riga in righe_m1:
-        tabella += f"| {m1[1]} | " + " | ".join(riga) + " |\n"
-    for riga in righe_m2:
-        tabella += f"| {m2[1]} | " + " | ".join(riga) + " |\n"
-
-    risposta = f"**Confronto tra {m1[1]} e {m2[1]}:**\n\n{tabella}"
+    output = []
+    for marca, modello in modelli:
+        df_m = df_auto[(df_auto["Marca"] == marca) & (df_auto["Modello"] == modello)]
+        dati = {
+            "dimensioni": f"{estrai_valore(df_m, 'Lunghezza')} x {estrai_valore(df_m, 'Larghezza')} x {estrai_valore(df_m, 'Altezza')}",
+            "bagagliaio": estrai_valore(df_m, "Bagagliaio"),
+            "autonomia": estrai_valore(df_m, "Autonomia km"),
+            "potenza": estrai_valore(df_m, "Potenza CV/KW"),
+            "prezzo": estrai_valore(df_m, "Prezzo"),
+        }
+        output.append(
+            f"{modello}:\n"
+            f"• Dimensioni: {dati['dimensioni']}\n"
+            f"• Bagagliaio: {dati['bagagliaio']}\n"
+            f"• Autonomia: {dati['autonomia']}\n"  # <-- tolto " km"
+            f"• Potenza: {dati['potenza']}\n"
+            f"• Prezzo: {dati['prezzo']}"
+        )
+    risposta = "\n\n".join(output)
     return {**state, "output": risposta}
 
-# Intent detection aggiornato
-def detect_intent(state):
+
+def lista_node(state: dict):
+    """Risponde a richieste di elenco basate su CSV: posti / segmento."""
+    q = state["input"].lower()
+
+    # 1) filtri disponibili
+    posti = None
+    if "7 posti" in q or "sette posti" in q: posti = 7
+    elif "2 posti" in q or "due posti" in q or "biposto" in q: posti = 2
+    else:
+        m = re.search(r"(\d+)\s*posti", q)
+        if m:
+            posti = int(m.group(1))
+
+    segmento = None
+    mseg = re.search(r"segmento\s*([a-h])\b", q)
+    if mseg:
+        segmento = mseg.group(1).upper()
+
+    df = df_auto.copy()
+
+    # 2) applica filtri
+    if posti is not None and "Posti" in df.columns:
+        df["_posti"] = df["Posti"].map(_posti_max)
+        df = df[df["_posti"].fillna(0) >= posti]
+
+    if segmento is not None and "Segmento" in df.columns:
+        df = df[df["Segmento"].astype(str).str.upper() == segmento]
+
+    if df.empty:
+        return {**state, "output": "Nel database non risultano modelli che soddisfano i criteri richiesti."}
+
+    # 3) format conciso: Marca Modello — (posti, eventuale prezzo)
+    items = []
+    for _, r in df[["Marca","Modello","Posti","Prezzo"]].dropna(subset=["Marca","Modello"]).drop_duplicates().head(20).iterrows():
+        pmax = _posti_max(r.get("Posti"))
+        price = str(r.get("Prezzo")) if pd.notna(r.get("Prezzo")) else None
+        tail = []
+        if pmax: tail.append(f"{pmax} posti")
+        if price: tail.append(f"€{price}")
+        items.append(f"- {r['Marca']} {r['Modello']}" + (f" — {', '.join(tail)}" if tail else ""))
+
+    return {**state, "output": "\n".join(items)}
+
+
+def detect_intent(state: dict):
     question = state["input"].lower()
-    if "vs" in question or "meglio" in question or "confronto" in question:
+    # Intercetta subito richieste di liste
+    if any(k in question for k in [" posti", "biposto", "segmento "]):
+        return {**state, "next": "lista_node"}
+    if any(x in question for x in [" vs ", "vs ", " meglio ", "confronto"]):
         m1, m2 = estrai_due_modelli(question)
         if m1 and m2:
             return {**state, "next": "confronto_node"}
@@ -186,12 +270,15 @@ def detect_intent(state):
     else:
         return {**state, "next": "generic_info"}
 
-# Crea grafo
+# --- Grafo -----------------------------------------------------------------
+
 graph = StateGraph(dict)
 graph.add_node("car_info_node", car_info_node)
 graph.add_node("generic_info", generic_info)
 graph.add_node("detect_intent", detect_intent)
 graph.add_node("confronto_node", confronto_node)
+graph.add_node("lista_node", lista_node)
+
 graph.set_entry_point("detect_intent")
 graph.add_conditional_edges(
     "detect_intent",
@@ -199,15 +286,29 @@ graph.add_conditional_edges(
     {
         "car_info_node": "car_info_node",
         "generic_info": "generic_info",
-        "confronto_node": "confronto_node"
-    }
+        "confronto_node": "confronto_node",
+        "lista_node": "lista_node",
+    },
 )
 graph.add_edge("car_info_node", END)
 graph.add_edge("generic_info", END)
 graph.add_edge("confronto_node", END)
+graph.add_edge("lista_node", END)
+
 compiled_graph = graph.compile()
 
-# Esegui
+# Helper robusti ------------------------------------------------------------
+
+def _token_in(q: str, token: str) -> bool:
+    """True se token compare come 'parola intera' (evita match parziali tipo 6 ∈ S60)."""
+    pattern = rf'(?<![\w\d]){re.escape(token.lower())}(?![\w\d])'
+    return re.search(pattern, q) is not None
+
+def _posti_max(v) -> int | None:
+    """Estrae il numero di posti massimo da valori tipo '7', '7/6', ecc."""
+    nums = re.findall(r"\d+", str(v))
+    return max(int(n) for n in nums) if nums else None
+
 if __name__ == "__main__":
     question = input("Fai una domanda sulle auto cinesi: ")
     result = compiled_graph.invoke({"input": question})
