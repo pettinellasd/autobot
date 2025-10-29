@@ -14,12 +14,18 @@ AUTO_CSV_PATH = BASE_DIR / "auto_dati.csv"
 # Env
 load_dotenv()
 
-# LLM Together AI (serverless)
+# LLM Together AI (serverless) - Configurazione migliorata per tono conversazionale
 llm = ChatOpenAI(
     model="meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
-    temperature=0.2,
+    temperature=0.65,  # Più naturale e conversazionale
     base_url="https://api.together.xyz/v1",
     api_key=os.getenv("TOGETHER_API_KEY"),
+    max_tokens=700,  # Risposte più complete ma controllate
+    model_kwargs={
+        "top_p": 0.9,
+        "presence_penalty": 0.2,  # Evita ripetizioni
+        "stop": ["\n\nUtente:", "\n\nutente:"]
+    }
 )
 
 # Carica CSV
@@ -101,7 +107,7 @@ def car_info_node(state: dict):
     question = state["input"].lower()
     marca, modello = estrai_marca_modello(question)
     if not marca or not modello:
-        return {**state, "output": "Non ho trovato la marca o il modello richiesto nel database."}
+        return {**state, "output": "Non ho trovato quel modello nel nostro database. Vuoi che ti elenchi i modelli disponibili per marca?"}
 
     df_modello = df_auto[(df_auto["Marca"] == marca) & (df_auto["Modello"] == modello)]
 
@@ -151,17 +157,50 @@ def car_info_node(state: dict):
     else:
         context = f"{marca} {modello}:\n" + "\n".join(risposte)
 
+# System prompt migliorato per CARBOT
+    system_prompt = """Tu sei CARBOT, assistente editoriale di ChinaMotorHub.
+Stile: italiano chiaro, frasi brevi, tono amichevole e naturale, niente emoji.
+Rispondi direttamente alla domanda, cita il modello/marca quando rilevante.
+Se un dato non è nel nostro DB, dillo in una riga e proponi come proseguire (es. "vuoi che ti dica le versioni disponibili e i prezzi indicativi?").
+Quando l'utente chiede di un modello specifico, struttura così:
+1. Cos'è in una riga (segmento, alimentazione),
+2. Versioni attuali (bullet con nome versione + 3 info utili),
+3. Note rapide (es. dotazioni chiave o punti di forza),
+4. Prossimo passo ("Vuoi i prezzi di listino o un confronto con X?").
+Evita preamboli tipo "Posso rispondere solo…" o "In base al mio training…".
+Mantieni neutralità ma calore umano.
+Se la domanda è generica, offri 2-3 opzioni per approfondire.
+Niente output troppo lungo: max 8-10 righe, poi proponi di continuare.
+
+Regole di rifinitura:
+• Evita "come modello linguistico…", "non ho accesso a internet…".
+• Quando mancano i dati: 1 riga di trasparenza + proposta di passo successivo.
+• Non elencare 20 bullet: max 4-5, ordinati per utilità.
+• Confronti: 2–3 alternative al massimo, con 1 riga di motivo ciascuna.
+• Chiusure sempre con domanda utile ("Preferisci autonomia o prezzo più basso?").
+
+Esempi di conversazione:
+Utente: "Conosci la K3?"
+Assistente: "Sì: K3 è un SUV stiloso, moderno e tecnologico, adatto anche per lunghi viaggi.
+Versioni oggi
+• K3 Standard — batteria 60 kWh, trazione anteriore, ADAS L2.
+• K3 Long Range — 75 kWh, autonomia maggiore, pompa di calore.
+• K3 Sport — motore più potente, cerchi 19", assetto rivisto.
+Note rapide: infotainment veloce, interni ampi, bagagliaio nella media.
+Vuoi i prezzi indicativi o un confronto con le rivali dirette?"
+
+Utente: "E di optional cosa conviene?"
+Assistente: "Dipende dall'uso. Conta che ci sono già molti optional di serie. In città convengono sensori 360° e pompa di calore (risparmia batteria d'inverno). Se fai autostrada, meglio il pacchetto assistenza con mantenimento corsia evoluto. Vuoi che ti elenchi gli optional di serie?"
+
+"""
+
+    # Esempi few-shot per riferimento (adatta i nomi/versioni alla tua base dati)
+
     prompt = (
-        "Sei CARBOT, assistente tecnico per auto cinesi in Italia.\n"
-        "Regole di stile (OBBLIGATORIE):\n"
-        "- Rispondi conciso e preciso (massimo 4 frasi).\n"
-        "- NON fare proposte non richieste (niente: “posso anche…”, “vuoi che…”).\n"
-        "- Niente tono pubblicitario. Solo dati presenti.\n"
-        "- Se un dato manca, scrivi “nd”.\n"
-        "- Usa elenchi brevi o frasi compatte; evita tabelle Markdown con barre verticali.\n"
-        f"\nDati auto:\n{context}\n"
+        f"{system_prompt}\n\n"
+        f"Dati auto nel nostro database:\n{context}\n"
         f"\nDomanda utente: {state['input']}\n"
-        "Risposta:"
+        "Risposta CARBOT:"
     )
     response = llm.invoke([HumanMessage(content=prompt)])
     return {**state, "output": response.content}
@@ -169,12 +208,12 @@ def car_info_node(state: dict):
 
 def generic_info(state: dict):
     q = state["input"]
-    # se non abbiamo match, non inventiamo: spieghiamo cosa posso fare, in 2-3 frasi max
+    # se non abbiamo match, non inventiamo: spieghiamo cosa posso fare, in 2-3 frasi max con tono CARBOT
     marche = ", ".join(sorted(df_auto["Marca"].dropna().astype(str).unique())[:10])
     msg = (
-        "Posso rispondere usando solo i dati presenti nel database (nessuna fonte esterna). "
-        "Chiedimi di un modello specifico (es. 'BYD Seal prezzi') oppure elenchi come 'tutte le 7 posti' o 'segmento E'. "
-        f"Marche presenti: {marche}."
+        "Ciao! Posso aiutarti con informazioni sulle auto cinesi disponibili in Italia. "
+        "Chiedimi di un modello specifico (come 'BYD Seal prezzi') oppure elenchi come 'auto 7 posti' o 'segmento E'. "
+        f"Le marche nel nostro database: {marche}. Cosa ti interessa?"
     )
     return {**state, "output": msg}
 
@@ -183,7 +222,7 @@ def confronto_node(state: dict):
     question = state["input"].lower()
     modelli = estrai_modelli(question, n=2)  # Limita il confronto a 2 modelli
     if len(modelli) < 2:
-        return {**state, "output": "Non ho trovato almeno due modelli da confrontare nella domanda."}
+        return {**state, "output": "Non ho trovato almeno due modelli da confrontare. Puoi essere più specifico sui modelli che vuoi mettere a confronto?"}
 
     def estrai_valore(df, col):
         v = df[col].dropna().astype(str).unique()
@@ -203,11 +242,11 @@ def confronto_node(state: dict):
             f"{modello}:\n"
             f"• Dimensioni: {dati['dimensioni']}\n"
             f"• Bagagliaio: {dati['bagagliaio']}\n"
-            f"• Autonomia: {dati['autonomia']}\n"  # <-- tolto " km"
+            f"• Autonomia: {dati['autonomia']}\n"
             f"• Potenza: {dati['potenza']}\n"
             f"• Prezzo: {dati['prezzo']}"
         )
-    risposta = "\n\n".join(output)
+    risposta = "\n\n".join(output) + "\n\nVuoi che approfondisca qualche aspetto specifico?"
     return {**state, "output": risposta}
 
 
@@ -310,6 +349,22 @@ def _posti_max(v) -> int | None:
     return max(int(n) for n in nums) if nums else None
 
 if __name__ == "__main__":
-    question = input("Fai una domanda sulle auto cinesi: ")
-    result = compiled_graph.invoke({"input": question})
-    print("Autobot:", result["output"])
+    print("🚗 Ciao! Sono CARBOT di ChinaMotorHub.")
+    print("Chiedimi qualunque cosa sulle auto cinesi in Italia!")
+    print("Esempi: 'BYD Seal prezzi', 'auto 7 posti', 'Tang vs Model X'\n")
+    
+    while True:
+        try:
+            question = input("Tu: ").strip()
+            if not question or question.lower() in ['exit', 'quit', 'esci']:
+                print("CARBOT: Alla prossima! 👋")
+                break
+                
+            result = compiled_graph.invoke({"input": question})
+            print(f"CARBOT: {result['output']}\n")
+            
+        except KeyboardInterrupt:
+            print("\nCARBOT: Alla prossima! 👋")
+            break
+        except Exception as e:
+            print(f"CARBOT: Scusa, c'è stato un problema: {e}\n")
